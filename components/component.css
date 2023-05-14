@@ -1,0 +1,14 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-navlink {
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  text-decoration: underline;
+}
+@media(max-width: 767px) {
+  .component-navlink {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
