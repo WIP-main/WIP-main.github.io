@@ -1,0 +1,211 @@
+.pokemon-e-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #D9D9D9;
+}
+.pokemon-e-navbar-interactive {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: rgb(52, 50, 50);
+}
+.pokemon-e-navlink {
+  display: contents;
+}
+.pokemon-e-logo {
+  width: 10%;
+  height: 10%;
+  text-decoration: none;
+}
+.pokemon-e-desktop-menu {
+  display: flex;
+}
+.pokemon-e-nav {
+  flex: 0 0 auto;
+  color: #D9D9D9;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.pokemon-e-navlink01 {
+  color: rgb(217, 217, 217);
+  text-align: center;
+  text-decoration: none;
+}
+.pokemon-e-text {
+  font-size: 20px;
+}
+.pokemon-e-navlink02 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.pokemon-e-navlink03 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.pokemon-e-navlink04 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.pokemon-e-link {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.pokemon-e-text2 {
+  color: #800080;
+  font-size: 20px;
+}
+.pokemon-e-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pokemon-e-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.pokemon-e-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.pokemon-e-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.pokemon-e-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pokemon-e-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.pokemon-e-navlink05 {
+  display: contents;
+}
+.pokemon-e-image {
+  height: 2rem;
+  text-decoration: none;
+}
+.pokemon-e-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pokemon-e-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.pokemon-e-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pokemon-e-navlink06 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.pokemon-e-navlink07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.pokemon-e-navlink08 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.pokemon-e-navlink09 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.pokemon-e-link1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.pokemon-e-icon-group {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+}
+.pokemon-e-div {
+  width: 1000px;
+  height: 700px;
+}
+@media(max-width: 767px) {
+  .pokemon-e-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .pokemon-e-desktop-menu {
+    display: none;
+  }
+  .pokemon-e-navlink02 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .pokemon-e-navlink03 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .pokemon-e-navlink04 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .pokemon-e-link {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .pokemon-e-text2 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .pokemon-e-btn-group {
+    display: none;
+  }
+  .pokemon-e-burger-menu {
+    display: flex;
+  }
+  .pokemon-e-link1 {
+    text-decoration: none;
+  }
+}
+@media(max-width: 479px) {
+  .pokemon-e-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .pokemon-e-logo {
+    width: 15%;
+    height: 15%;
+  }
+  .pokemon-e-icon {
+    width: 55px;
+    height: 55px;
+  }
+  .pokemon-e-mobile-menu {
+    padding: 16px;
+  }
+}

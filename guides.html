@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guides - WIP</title>
+    <meta property="og:title" content="Guides - WIP" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Source Sans Pro;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/playground_assets/screenshot_2023-05-13_10.49.15_pm-removebg-preview.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+
+    <style data-section-id="dropdown">
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: true });
+    </script>
+  </head>
+  <body>
+    <div>
+      <link href="./guides.css" rel="stylesheet" />
+
+      <div class="guides-container">
+        <header data-thq="thq-navbar" class="guides-navbar-interactive">
+          <a href="index.html" class="guides-navlink">
+            <img
+              alt="logo"
+              src="public/playground_assets/images-removebg-preview2-200h.png"
+              class="guides-logo"
+            />
+          </a>
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="guides-desktop-menu"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="guides-nav"
+            >
+              <a href="flash-games.html" class="guides-navlink01">
+                <span class="guides-text">Flash Games</span>
+                <br />
+              </a>
+              <a href="gameboy-games.html" class="guides-navlink02">
+                Gameboy Games
+              </a>
+              <a href="proxies.html" class="guides-navlink03">Proxies</a>
+              <a href="guides.html" class="guides-navlink04">Guides</a>
+              <a
+                href="https://discord.gg/62PsHFFQHm"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="guides-link"
+              >
+                <span class="guides-text02">WIP Discord</span>
+                <br />
+              </a>
+            </nav>
+          </div>
+          <div data-thq="thq-navbar-btn-group" class="guides-btn-group"></div>
+          <div data-thq="thq-burger-menu" class="guides-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="guides-icon">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div data-thq="thq-mobile-menu" class="guides-mobile-menu">
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="guides-nav1"
+            >
+              <div class="guides-container1">
+                <a href="index.html" class="guides-navlink05">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/images-removebg-preview2-200h.png"
+                    class="guides-image"
+                  />
+                </a>
+                <div data-thq="thq-close-menu" class="guides-menu-close">
+                  <svg viewBox="0 0 1024 1024" class="guides-icon2">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="guides-nav2"
+              >
+                <a href="flash-games.html" class="guides-navlink06">
+                  Flash Games
+                </a>
+                <a href="gameboy-games.html" class="guides-navlink07">
+                  Gameboy Games
+                </a>
+                <a href="proxies.html" class="guides-navlink08">Proxies</a>
+                <a href="guides.html" class="guides-navlink09">Guides</a>
+                <a
+                  href="https://discord.gg/62PsHFFQHm"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="guides-link1"
+                >
+                  WIP Discord
+                </a>
+              </nav>
+            </div>
+            <div class="guides-icon-group"></div>
+          </div>
+        </header>
+        <div class="guides-container2">
+          <div class="guides-container3">
+            <h1 class="guides-text04">Making your own URL</h1>
+            <div class="guides-btn-group1">
+              <a href="github-guide.html" class="guides-navlink10 button">
+                Get Started
+              </a>
+            </div>
+            <span class="guides-text05">
+              <br class="guides-text06" />
+              <span class="guides-text07">
+                I specifically made this website entirely reliant upon itself
+                and easily duplicatable and open source. This guide is very
+                simple and has pictures to make it easier for you to make your
+                own version.
+              </span>
+              <br />
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <img
+            alt="image"
+            src="public/playground_assets/download-1500w.jpeg"
+            class="guides-image1"
+          />
+        </div>
+        <div class="guides-container4">
+          <div class="guides-container5">
+            <h1 class="guides-text11">Making a Rammerhead Website</h1>
+            <div class="guides-btn-group2">
+              <a href="rammerhead-guide.html" class="guides-navlink11 button">
+                Get Started
+              </a>
+            </div>
+            <span class="guides-text12">
+              <br class="guides-text13" />
+              <span>This takes about 5 minutes and uses FreeDNS</span>
+              <br />
+              <br />
+              <span>
+                The guides contents are taken from the Rammehead Project. I love
+                those people and you should go give them a star on github to
+                make them happy while you use their product.&nbsp;
+              </span>
+              <br />
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <img
+            alt="image"
+            src="public/playground_assets/rh-200h.png"
+            class="guides-image2"
+          />
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://www.googletagmanager.com/gtag/js?id=G-3JZWTEPZXN"
+      async=""
+    ></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-3JZWTEPZXN');
+    </script>
+    <script type="text/javascript">
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-KCNV8W8');
+    </script>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

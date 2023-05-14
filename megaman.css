@@ -1,0 +1,211 @@
+.megaman-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #D9D9D9;
+}
+.megaman-navbar-interactive {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: rgb(52, 50, 50);
+}
+.megaman-navlink {
+  display: contents;
+}
+.megaman-logo {
+  width: 10%;
+  height: 10%;
+  text-decoration: none;
+}
+.megaman-desktop-menu {
+  display: flex;
+}
+.megaman-nav {
+  flex: 0 0 auto;
+  color: #D9D9D9;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.megaman-navlink01 {
+  color: rgb(217, 217, 217);
+  text-align: center;
+  text-decoration: none;
+}
+.megaman-text {
+  font-size: 20px;
+}
+.megaman-navlink02 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.megaman-navlink03 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.megaman-navlink04 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.megaman-link {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.megaman-text2 {
+  color: #800080;
+  font-size: 20px;
+}
+.megaman-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.megaman-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.megaman-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.megaman-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.megaman-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.megaman-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.megaman-navlink05 {
+  display: contents;
+}
+.megaman-image {
+  height: 2rem;
+  text-decoration: none;
+}
+.megaman-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.megaman-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.megaman-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.megaman-navlink06 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.megaman-navlink07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.megaman-navlink08 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.megaman-navlink09 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.megaman-link1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.megaman-icon-group {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+}
+.megaman-div {
+  width: 1000px;
+  height: 700px;
+}
+@media(max-width: 767px) {
+  .megaman-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .megaman-desktop-menu {
+    display: none;
+  }
+  .megaman-navlink02 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .megaman-navlink03 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .megaman-navlink04 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .megaman-link {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .megaman-text2 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .megaman-btn-group {
+    display: none;
+  }
+  .megaman-burger-menu {
+    display: flex;
+  }
+  .megaman-link1 {
+    text-decoration: none;
+  }
+}
+@media(max-width: 479px) {
+  .megaman-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .megaman-logo {
+    width: 15%;
+    height: 15%;
+  }
+  .megaman-icon {
+    width: 55px;
+    height: 55px;
+  }
+  .megaman-mobile-menu {
+    padding: 16px;
+  }
+}

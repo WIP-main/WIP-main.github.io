@@ -1,0 +1,211 @@
+.spyro-adventure-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #D9D9D9;
+}
+.spyro-adventure-navbar-interactive {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: rgb(52, 50, 50);
+}
+.spyro-adventure-navlink {
+  display: contents;
+}
+.spyro-adventure-logo {
+  width: 10%;
+  height: 10%;
+  text-decoration: none;
+}
+.spyro-adventure-desktop-menu {
+  display: flex;
+}
+.spyro-adventure-nav {
+  flex: 0 0 auto;
+  color: #D9D9D9;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.spyro-adventure-navlink01 {
+  color: rgb(217, 217, 217);
+  text-align: center;
+  text-decoration: none;
+}
+.spyro-adventure-text {
+  font-size: 20px;
+}
+.spyro-adventure-navlink02 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.spyro-adventure-navlink03 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.spyro-adventure-navlink04 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.spyro-adventure-link {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.spyro-adventure-text2 {
+  color: #800080;
+  font-size: 20px;
+}
+.spyro-adventure-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.spyro-adventure-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.spyro-adventure-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.spyro-adventure-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.spyro-adventure-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.spyro-adventure-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.spyro-adventure-navlink05 {
+  display: contents;
+}
+.spyro-adventure-image {
+  height: 2rem;
+  text-decoration: none;
+}
+.spyro-adventure-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spyro-adventure-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.spyro-adventure-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.spyro-adventure-navlink06 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.spyro-adventure-navlink07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.spyro-adventure-navlink08 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.spyro-adventure-navlink09 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.spyro-adventure-link1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.spyro-adventure-icon-group {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+}
+.spyro-adventure-div {
+  width: 1000px;
+  height: 700px;
+}
+@media(max-width: 767px) {
+  .spyro-adventure-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .spyro-adventure-desktop-menu {
+    display: none;
+  }
+  .spyro-adventure-navlink02 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .spyro-adventure-navlink03 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .spyro-adventure-navlink04 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .spyro-adventure-link {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .spyro-adventure-text2 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .spyro-adventure-btn-group {
+    display: none;
+  }
+  .spyro-adventure-burger-menu {
+    display: flex;
+  }
+  .spyro-adventure-link1 {
+    text-decoration: none;
+  }
+}
+@media(max-width: 479px) {
+  .spyro-adventure-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .spyro-adventure-logo {
+    width: 15%;
+    height: 15%;
+  }
+  .spyro-adventure-icon {
+    width: 55px;
+    height: 55px;
+  }
+  .spyro-adventure-mobile-menu {
+    padding: 16px;
+  }
+}

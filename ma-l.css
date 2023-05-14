@@ -1,0 +1,211 @@
+.ma-l-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #D9D9D9;
+}
+.ma-l-navbar-interactive {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: rgb(52, 50, 50);
+}
+.ma-l-navlink {
+  display: contents;
+}
+.ma-l-logo {
+  width: 10%;
+  height: 10%;
+  text-decoration: none;
+}
+.ma-l-desktop-menu {
+  display: flex;
+}
+.ma-l-nav {
+  flex: 0 0 auto;
+  color: #D9D9D9;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.ma-l-navlink01 {
+  color: rgb(217, 217, 217);
+  text-align: center;
+  text-decoration: none;
+}
+.ma-l-text {
+  font-size: 20px;
+}
+.ma-l-navlink02 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.ma-l-navlink03 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.ma-l-navlink04 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.ma-l-link {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.ma-l-text2 {
+  color: #800080;
+  font-size: 20px;
+}
+.ma-l-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ma-l-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.ma-l-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.ma-l-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.ma-l-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.ma-l-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.ma-l-navlink05 {
+  display: contents;
+}
+.ma-l-image {
+  height: 2rem;
+  text-decoration: none;
+}
+.ma-l-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ma-l-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.ma-l-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.ma-l-navlink06 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.ma-l-navlink07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.ma-l-navlink08 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.ma-l-navlink09 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.ma-l-link1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.ma-l-icon-group {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+}
+.ma-l-div {
+  width: 1000px;
+  height: 700px;
+}
+@media(max-width: 767px) {
+  .ma-l-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .ma-l-desktop-menu {
+    display: none;
+  }
+  .ma-l-navlink02 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .ma-l-navlink03 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .ma-l-navlink04 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .ma-l-link {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .ma-l-text2 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .ma-l-btn-group {
+    display: none;
+  }
+  .ma-l-burger-menu {
+    display: flex;
+  }
+  .ma-l-link1 {
+    text-decoration: none;
+  }
+}
+@media(max-width: 479px) {
+  .ma-l-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .ma-l-logo {
+    width: 15%;
+    height: 15%;
+  }
+  .ma-l-icon {
+    width: 55px;
+    height: 55px;
+  }
+  .ma-l-mobile-menu {
+    padding: 16px;
+  }
+}

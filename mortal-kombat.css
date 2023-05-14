@@ -1,0 +1,211 @@
+.mortal-kombat-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #D9D9D9;
+}
+.mortal-kombat-navbar-interactive {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: rgb(52, 50, 50);
+}
+.mortal-kombat-navlink {
+  display: contents;
+}
+.mortal-kombat-logo {
+  width: 10%;
+  height: 10%;
+  text-decoration: none;
+}
+.mortal-kombat-desktop-menu {
+  display: flex;
+}
+.mortal-kombat-nav {
+  flex: 0 0 auto;
+  color: #D9D9D9;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.mortal-kombat-navlink01 {
+  color: rgb(217, 217, 217);
+  text-align: center;
+  text-decoration: none;
+}
+.mortal-kombat-text {
+  font-size: 20px;
+}
+.mortal-kombat-navlink02 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.mortal-kombat-navlink03 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.mortal-kombat-navlink04 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.mortal-kombat-link {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.mortal-kombat-text2 {
+  color: #800080;
+  font-size: 20px;
+}
+.mortal-kombat-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mortal-kombat-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.mortal-kombat-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.mortal-kombat-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.mortal-kombat-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mortal-kombat-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.mortal-kombat-navlink05 {
+  display: contents;
+}
+.mortal-kombat-image {
+  height: 2rem;
+  text-decoration: none;
+}
+.mortal-kombat-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mortal-kombat-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.mortal-kombat-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mortal-kombat-navlink06 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.mortal-kombat-navlink07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.mortal-kombat-navlink08 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.mortal-kombat-navlink09 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.mortal-kombat-link1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.mortal-kombat-icon-group {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+}
+.mortal-kombat-div {
+  width: 1000px;
+  height: 700px;
+}
+@media(max-width: 767px) {
+  .mortal-kombat-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .mortal-kombat-desktop-menu {
+    display: none;
+  }
+  .mortal-kombat-navlink02 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .mortal-kombat-navlink03 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .mortal-kombat-navlink04 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .mortal-kombat-link {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .mortal-kombat-text2 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .mortal-kombat-btn-group {
+    display: none;
+  }
+  .mortal-kombat-burger-menu {
+    display: flex;
+  }
+  .mortal-kombat-link1 {
+    text-decoration: none;
+  }
+}
+@media(max-width: 479px) {
+  .mortal-kombat-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .mortal-kombat-logo {
+    width: 15%;
+    height: 15%;
+  }
+  .mortal-kombat-icon {
+    width: 55px;
+    height: 55px;
+  }
+  .mortal-kombat-mobile-menu {
+    padding: 16px;
+  }
+}

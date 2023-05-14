@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rammerhead - WIP</title>
+    <meta property="og:title" content="Rammerhead - WIP" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Source Sans Pro;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/playground_assets/screenshot_2023-05-13_10.49.15_pm-removebg-preview.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+
+    <style data-section-id="dropdown">
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: true });
+    </script>
+  </head>
+  <body>
+    <div>
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html@0.1.12/dist/default/lib.umd.js"
+      ></script>
+      <link href="./rammerhead.css" rel="stylesheet" />
+
+      <div class="rammerhead-container">
+        <header data-thq="thq-navbar" class="rammerhead-navbar-interactive">
+          <a href="index.html" class="rammerhead-navlink">
+            <img
+              alt="logo"
+              src="public/playground_assets/images-removebg-preview2-200h.png"
+              class="rammerhead-logo"
+            />
+          </a>
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="rammerhead-desktop-menu"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="rammerhead-nav"
+            >
+              <a href="flash-games.html" class="rammerhead-navlink01">
+                <span class="rammerhead-text">Flash Games</span>
+                <br />
+              </a>
+              <a href="gameboy-games.html" class="rammerhead-navlink02">
+                Gameboy Games
+              </a>
+              <a href="proxies.html" class="rammerhead-navlink03">Proxies</a>
+              <a href="guides.html" class="rammerhead-navlink04">Guides</a>
+              <a
+                href="https://discord.gg/62PsHFFQHm"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="rammerhead-link"
+              >
+                <span class="rammerhead-text02">WIP Discord</span>
+                <br />
+              </a>
+            </nav>
+          </div>
+          <div
+            data-thq="thq-navbar-btn-group"
+            class="rammerhead-btn-group"
+          ></div>
+          <div data-thq="thq-burger-menu" class="rammerhead-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="rammerhead-icon">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div data-thq="thq-mobile-menu" class="rammerhead-mobile-menu">
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="rammerhead-nav1"
+            >
+              <div class="rammerhead-container1">
+                <a href="index.html" class="rammerhead-navlink05">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/images-removebg-preview2-200h.png"
+                    class="rammerhead-image"
+                  />
+                </a>
+                <div data-thq="thq-close-menu" class="rammerhead-menu-close">
+                  <svg viewBox="0 0 1024 1024" class="rammerhead-icon2">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="rammerhead-nav2"
+              >
+                <a href="flash-games.html" class="rammerhead-navlink06">
+                  Flash Games
+                </a>
+                <a href="gameboy-games.html" class="rammerhead-navlink07">
+                  Gameboy Games
+                </a>
+                <a href="proxies.html" class="rammerhead-navlink08">Proxies</a>
+                <a href="guides.html" class="rammerhead-navlink09">Guides</a>
+                <a
+                  href="https://discord.gg/62PsHFFQHm"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="rammerhead-link1"
+                >
+                  WIP Discord
+                </a>
+              </nav>
+            </div>
+            <div class="rammerhead-icon-group"></div>
+          </div>
+        </header>
+        <div class="rammerhead-div">
+          <dangerous-html
+            html="<iframe id='inlineFrameExample'
+    title='Inline Frame Example'
+    width='1385'
+    height='765'
+    src='https://amogus.cclemons.me/'>
+</iframe>"
+          ></dangerous-html>
+        </div>
+        <h1 class="rammerhead-text04">
+          <span class="rammerhead-text05">
+            (This takes about 15 seconds to 60 seconds to load)
+          </span>
+          <br class="rammerhead-text06" />
+          <br class="rammerhead-text07" />
+          <span class="rammerhead-text08">
+            Click the icon at the top right or open a different URL before you
+            use Rammerhead
+          </span>
+          <br class="rammerhead-text09" />
+          <span class="rammerhead-text10">
+            because cookies are disabled when embedded and&nbsp;
+          </span>
+          <br class="rammerhead-text11" />
+          <span class="rammerhead-text12">will break many sites.</span>
+          <br class="rammerhead-text13" />
+          <br class="rammerhead-text14" />
+          <span class="rammerhead-text15">Other URLS:</span>
+          <br class="rammerhead-text16" />
+          <span class="rammerhead-text17">(I DONT MAKE THESE)</span>
+          <br class="rammerhead-text18" />
+          <span class="rammerhead-text19">
+            https://login.booket.foreverfine.com/
+          </span>
+          <br class="rammerhead-text20" />
+          <span class="rammerhead-text21">https://pass.eznuts.de/</span>
+          <br class="rammerhead-text22" />
+          <span class="rammerhead-text23">https://pass.rainao.de/</span>
+          <br class="rammerhead-text24" />
+          <span class="rammerhead-text25">
+            https://whenipoppedoff.agriculturadigital.ar/
+          </span>
+          <br />
+        </h1>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://www.googletagmanager.com/gtag/js?id=G-3JZWTEPZXN"
+      async=""
+    ></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-3JZWTEPZXN');
+    </script>
+    <script type="text/javascript">
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-KCNV8W8');
+    </script>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

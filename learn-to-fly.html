@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Learn-to-fly - WIP</title>
+    <meta property="og:title" content="Learn-to-fly - WIP" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Source Sans Pro;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/playground_assets/screenshot_2023-05-13_10.49.15_pm-removebg-preview.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+
+    <style data-section-id="dropdown">
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: true });
+    </script>
+  </head>
+  <body>
+    <div>
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html@0.1.12/dist/default/lib.umd.js"
+      ></script>
+      <link href="./learn-to-fly.css" rel="stylesheet" />
+
+      <div class="learn-to-fly-container">
+        <header data-thq="thq-navbar" class="learn-to-fly-navbar-interactive">
+          <a href="index.html" class="learn-to-fly-navlink">
+            <img
+              alt="logo"
+              src="public/playground_assets/images-removebg-preview2-200h.png"
+              class="learn-to-fly-logo"
+            />
+          </a>
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="learn-to-fly-desktop-menu"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="learn-to-fly-nav"
+            >
+              <a href="flash-games.html" class="learn-to-fly-navlink01">
+                <span class="learn-to-fly-text">Flash Games</span>
+                <br />
+              </a>
+              <a href="gameboy-games.html" class="learn-to-fly-navlink02">
+                Gameboy Games
+              </a>
+              <a href="proxies.html" class="learn-to-fly-navlink03">Proxies</a>
+              <a href="guides.html" class="learn-to-fly-navlink04">Guides</a>
+              <a
+                href="https://discord.gg/62PsHFFQHm"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="learn-to-fly-link"
+              >
+                <span class="learn-to-fly-text2">WIP Discord</span>
+                <br />
+              </a>
+            </nav>
+          </div>
+          <div
+            data-thq="thq-navbar-btn-group"
+            class="learn-to-fly-btn-group"
+          ></div>
+          <div data-thq="thq-burger-menu" class="learn-to-fly-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="learn-to-fly-icon">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div data-thq="thq-mobile-menu" class="learn-to-fly-mobile-menu">
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="learn-to-fly-nav1"
+            >
+              <div class="learn-to-fly-container1">
+                <a href="index.html" class="learn-to-fly-navlink05">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/images-removebg-preview2-200h.png"
+                    class="learn-to-fly-image"
+                  />
+                </a>
+                <div data-thq="thq-close-menu" class="learn-to-fly-menu-close">
+                  <svg viewBox="0 0 1024 1024" class="learn-to-fly-icon2">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="learn-to-fly-nav2"
+              >
+                <a href="flash-games.html" class="learn-to-fly-navlink06">
+                  Flash Games
+                </a>
+                <a href="gameboy-games.html" class="learn-to-fly-navlink07">
+                  Gameboy Games
+                </a>
+                <a href="proxies.html" class="learn-to-fly-navlink08">
+                  Proxies
+                </a>
+                <a href="guides.html" class="learn-to-fly-navlink09">Guides</a>
+                <a
+                  href="https://discord.gg/62PsHFFQHm"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="learn-to-fly-link1"
+                >
+                  WIP Discord
+                </a>
+              </nav>
+            </div>
+            <div class="learn-to-fly-icon-group"></div>
+          </div>
+        </header>
+        <div class="learn-to-fly-div">
+          <dangerous-html
+            html="<script src='https://garage-56.github.io/test42/ruffle/ruffle.js'></script>
+<div class='swf'dir='ltr' style='text-align: left;' trbidi='on'>
+        <embed height='700' pluginspage=' http://www.macromedia.com/go/getflashplayer' src='https://garage-56.github.io/Garage-56/learn2fly.swf' type='application/x-shockwave-flash' width='1003'></embed>
+</div>
+"
+          ></dangerous-html>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://www.googletagmanager.com/gtag/js?id=G-3JZWTEPZXN"
+      async=""
+    ></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-3JZWTEPZXN');
+    </script>
+    <script type="text/javascript">
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-KCNV8W8');
+    </script>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

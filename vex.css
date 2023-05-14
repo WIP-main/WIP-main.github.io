@@ -1,0 +1,210 @@
+.vex-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.vex-navbar-interactive {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: rgb(52, 50, 50);
+}
+.vex-navlink {
+  display: contents;
+}
+.vex-logo {
+  width: 10%;
+  height: 10%;
+  text-decoration: none;
+}
+.vex-desktop-menu {
+  display: flex;
+}
+.vex-nav {
+  flex: 0 0 auto;
+  color: #D9D9D9;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.vex-navlink01 {
+  color: rgb(217, 217, 217);
+  text-align: center;
+  text-decoration: none;
+}
+.vex-text {
+  font-size: 20px;
+}
+.vex-navlink02 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.vex-navlink03 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.vex-navlink04 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.vex-link {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.vex-text2 {
+  color: #800080;
+  font-size: 20px;
+}
+.vex-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.vex-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.vex-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.vex-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.vex-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.vex-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.vex-navlink05 {
+  display: contents;
+}
+.vex-image {
+  height: 2rem;
+  text-decoration: none;
+}
+.vex-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vex-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.vex-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.vex-navlink06 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.vex-navlink07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.vex-navlink08 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.vex-navlink09 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.vex-link1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.vex-icon-group {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+}
+.vex-div {
+  align-self: center;
+}
+@media(max-width: 767px) {
+  .vex-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .vex-desktop-menu {
+    display: none;
+  }
+  .vex-navlink02 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .vex-navlink03 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .vex-navlink04 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .vex-link {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .vex-text2 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .vex-btn-group {
+    display: none;
+  }
+  .vex-burger-menu {
+    display: flex;
+  }
+  .vex-link1 {
+    text-decoration: none;
+  }
+}
+@media(max-width: 479px) {
+  .vex-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .vex-logo {
+    width: 15%;
+    height: 15%;
+  }
+  .vex-icon {
+    width: 55px;
+    height: 55px;
+  }
+  .vex-mobile-menu {
+    padding: 16px;
+  }
+}

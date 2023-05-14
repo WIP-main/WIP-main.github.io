@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NavBarDupe - WIP</title>
+    <meta property="og:title" content="NavBarDupe - WIP" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Source Sans Pro;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/playground_assets/screenshot_2023-05-13_10.49.15_pm-removebg-preview.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+
+    <style data-section-id="dropdown">
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: true });
+    </script>
+  </head>
+  <body>
+    <div>
+      <link href="./nav-bar-dupe.css" rel="stylesheet" />
+
+      <div class="nav-bar-dupe-container">
+        <header data-thq="thq-navbar" class="nav-bar-dupe-navbar-interactive">
+          <a href="index.html" class="nav-bar-dupe-navlink">
+            <img
+              alt="logo"
+              src="public/playground_assets/images-removebg-preview2-1400w.png"
+              class="nav-bar-dupe-logo"
+            />
+          </a>
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="nav-bar-dupe-desktop-menu"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="nav-bar-dupe-nav"
+            >
+              <a href="flash-games.html" class="nav-bar-dupe-navlink01">
+                <span class="nav-bar-dupe-text">Flash Games</span>
+                <br />
+              </a>
+              <a href="gameboy-games.html" class="nav-bar-dupe-navlink02">
+                Gameboy Games
+              </a>
+              <a href="proxies.html" class="nav-bar-dupe-navlink03">Proxies</a>
+              <a href="guides.html" class="nav-bar-dupe-navlink04">Guides</a>
+              <a
+                href="https://discord.gg/62PsHFFQHm"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="nav-bar-dupe-link"
+              >
+                <span class="nav-bar-dupe-text02">WIP Discord</span>
+                <br />
+              </a>
+            </nav>
+          </div>
+          <div
+            data-thq="thq-navbar-btn-group"
+            class="nav-bar-dupe-btn-group"
+          ></div>
+          <div data-thq="thq-burger-menu" class="nav-bar-dupe-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="nav-bar-dupe-icon">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div data-thq="thq-mobile-menu" class="nav-bar-dupe-mobile-menu">
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="nav-bar-dupe-nav01"
+            >
+              <div class="nav-bar-dupe-container1">
+                <a href="index.html" class="nav-bar-dupe-navlink05">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/images-removebg-preview2-1400w.png"
+                    class="nav-bar-dupe-image"
+                  />
+                </a>
+                <div data-thq="thq-close-menu" class="nav-bar-dupe-menu-close">
+                  <svg viewBox="0 0 1024 1024" class="nav-bar-dupe-icon02">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="nav-bar-dupe-nav02"
+              >
+                <a href="flash-games.html" class="nav-bar-dupe-navlink06">
+                  Flash Games
+                </a>
+                <a href="gameboy-games.html" class="nav-bar-dupe-navlink07">
+                  Gameboy Games
+                </a>
+                <a href="proxies.html" class="nav-bar-dupe-navlink08">
+                  Proxies
+                </a>
+                <a href="guides.html" class="nav-bar-dupe-navlink09">Guides</a>
+                <a
+                  href="https://discord.gg/62PsHFFQHm"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="nav-bar-dupe-link1"
+                >
+                  WIP Discord
+                </a>
+              </nav>
+            </div>
+            <div class="nav-bar-dupe-icon-group"></div>
+          </div>
+        </header>
+        <header data-thq="thq-navbar" class="nav-bar-dupe-navbar-interactive1">
+          <a href="index.html" class="nav-bar-dupe-navlink10">
+            <img
+              alt="logo"
+              src="public/playground_assets/images-removebg-preview2-1400w.png"
+              class="nav-bar-dupe-logo1"
+            />
+          </a>
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="nav-bar-dupe-desktop-menu1"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="nav-bar-dupe-nav03"
+            >
+              <a href="flash-games.html" class="nav-bar-dupe-navlink11">
+                <span class="nav-bar-dupe-text04">Flash Games</span>
+                <br />
+              </a>
+              <a href="gameboy-games.html" class="nav-bar-dupe-navlink12">
+                Gameboy Games
+              </a>
+              <a href="proxies.html" class="nav-bar-dupe-navlink13">Proxies</a>
+              <a href="guides.html" class="nav-bar-dupe-navlink14">Guides</a>
+              <a
+                href="https://discord.gg/62PsHFFQHm"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="nav-bar-dupe-link2"
+              >
+                <span class="nav-bar-dupe-text06">WIP Discord</span>
+                <br />
+              </a>
+            </nav>
+          </div>
+          <div
+            data-thq="thq-navbar-btn-group"
+            class="nav-bar-dupe-btn-group1"
+          ></div>
+          <div data-thq="thq-burger-menu" class="nav-bar-dupe-burger-menu1">
+            <svg viewBox="0 0 1024 1024" class="nav-bar-dupe-icon04">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div data-thq="thq-mobile-menu" class="nav-bar-dupe-mobile-menu1">
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="nav-bar-dupe-nav04"
+            >
+              <div class="nav-bar-dupe-container2">
+                <a href="index.html" class="nav-bar-dupe-navlink15">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/images-removebg-preview2-1400w.png"
+                    class="nav-bar-dupe-image1"
+                  />
+                </a>
+                <div data-thq="thq-close-menu" class="nav-bar-dupe-menu-close1">
+                  <svg viewBox="0 0 1024 1024" class="nav-bar-dupe-icon06">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="nav-bar-dupe-nav05"
+              >
+                <a href="flash-games.html" class="nav-bar-dupe-navlink16">
+                  Flash Games
+                </a>
+                <a href="gameboy-games.html" class="nav-bar-dupe-navlink17">
+                  Gameboy Games
+                </a>
+                <a href="proxies.html" class="nav-bar-dupe-navlink18">
+                  Proxies
+                </a>
+                <a href="guides.html" class="nav-bar-dupe-navlink19">Guides</a>
+                <a
+                  href="https://discord.gg/62PsHFFQHm"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="nav-bar-dupe-link3"
+                >
+                  WIP Discord
+                </a>
+              </nav>
+            </div>
+            <div class="nav-bar-dupe-icon-group1"></div>
+          </div>
+        </header>
+        <header data-thq="thq-navbar" class="nav-bar-dupe-navbar-interactive2">
+          <a href="index.html" class="nav-bar-dupe-navlink20">
+            <img
+              alt="logo"
+              src="public/playground_assets/images-removebg-preview2-1400w.png"
+              class="nav-bar-dupe-logo2"
+            />
+          </a>
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="nav-bar-dupe-desktop-menu2"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="nav-bar-dupe-nav06"
+            >
+              <a href="flash-games.html" class="nav-bar-dupe-navlink21">
+                <span class="nav-bar-dupe-text08">Flash Games</span>
+                <br />
+              </a>
+              <a href="gameboy-games.html" class="nav-bar-dupe-navlink22">
+                Gameboy Games
+              </a>
+              <a href="proxies.html" class="nav-bar-dupe-navlink23">Proxies</a>
+              <a href="guides.html" class="nav-bar-dupe-navlink24">Guides</a>
+              <a
+                href="https://discord.gg/62PsHFFQHm"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="nav-bar-dupe-link4"
+              >
+                <span class="nav-bar-dupe-text10">WIP Discord</span>
+                <br />
+              </a>
+            </nav>
+          </div>
+          <div
+            data-thq="thq-navbar-btn-group"
+            class="nav-bar-dupe-btn-group2"
+          ></div>
+          <div data-thq="thq-burger-menu" class="nav-bar-dupe-burger-menu2">
+            <svg viewBox="0 0 1024 1024" class="nav-bar-dupe-icon08">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div data-thq="thq-mobile-menu" class="nav-bar-dupe-mobile-menu2">
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="nav-bar-dupe-nav07"
+            >
+              <div class="nav-bar-dupe-container3">
+                <a href="index.html" class="nav-bar-dupe-navlink25">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/images-removebg-preview2-1400w.png"
+                    class="nav-bar-dupe-image2"
+                  />
+                </a>
+                <div data-thq="thq-close-menu" class="nav-bar-dupe-menu-close2">
+                  <svg viewBox="0 0 1024 1024" class="nav-bar-dupe-icon10">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="nav-bar-dupe-nav08"
+              >
+                <a href="flash-games.html" class="nav-bar-dupe-navlink26">
+                  Flash Games
+                </a>
+                <a href="gameboy-games.html" class="nav-bar-dupe-navlink27">
+                  Gameboy Games
+                </a>
+                <a href="proxies.html" class="nav-bar-dupe-navlink28">
+                  Proxies
+                </a>
+                <a href="guides.html" class="nav-bar-dupe-navlink29">Guides</a>
+                <a
+                  href="https://discord.gg/62PsHFFQHm"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="nav-bar-dupe-link5"
+                >
+                  WIP Discord
+                </a>
+              </nav>
+            </div>
+            <div class="nav-bar-dupe-icon-group2"></div>
+          </div>
+        </header>
+        <header data-thq="thq-navbar" class="nav-bar-dupe-navbar-interactive3">
+          <a href="index.html" class="nav-bar-dupe-navlink30">
+            <img
+              alt="logo"
+              src="public/playground_assets/images-removebg-preview2-1400w.png"
+              class="nav-bar-dupe-logo3"
+            />
+          </a>
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="nav-bar-dupe-desktop-menu3"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="nav-bar-dupe-nav09"
+            >
+              <a href="flash-games.html" class="nav-bar-dupe-navlink31">
+                <span class="nav-bar-dupe-text12">Flash Games</span>
+                <br />
+              </a>
+              <a href="gameboy-games.html" class="nav-bar-dupe-navlink32">
+                Gameboy Games
+              </a>
+              <a href="proxies.html" class="nav-bar-dupe-navlink33">Proxies</a>
+              <a href="guides.html" class="nav-bar-dupe-navlink34">Guides</a>
+              <a
+                href="https://discord.gg/62PsHFFQHm"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="nav-bar-dupe-link6"
+              >
+                <span class="nav-bar-dupe-text14">WIP Discord</span>
+                <br />
+              </a>
+            </nav>
+          </div>
+          <div
+            data-thq="thq-navbar-btn-group"
+            class="nav-bar-dupe-btn-group3"
+          ></div>
+          <div data-thq="thq-burger-menu" class="nav-bar-dupe-burger-menu3">
+            <svg viewBox="0 0 1024 1024" class="nav-bar-dupe-icon12">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div data-thq="thq-mobile-menu" class="nav-bar-dupe-mobile-menu3">
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="nav-bar-dupe-nav10"
+            >
+              <div class="nav-bar-dupe-container4">
+                <a href="index.html" class="nav-bar-dupe-navlink35">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/images-removebg-preview2-1400w.png"
+                    class="nav-bar-dupe-image3"
+                  />
+                </a>
+                <div data-thq="thq-close-menu" class="nav-bar-dupe-menu-close3">
+                  <svg viewBox="0 0 1024 1024" class="nav-bar-dupe-icon14">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="nav-bar-dupe-nav11"
+              >
+                <a href="flash-games.html" class="nav-bar-dupe-navlink36">
+                  Flash Games
+                </a>
+                <a href="gameboy-games.html" class="nav-bar-dupe-navlink37">
+                  Gameboy Games
+                </a>
+                <a href="proxies.html" class="nav-bar-dupe-navlink38">
+                  Proxies
+                </a>
+                <a href="guides.html" class="nav-bar-dupe-navlink39">Guides</a>
+                <a
+                  href="https://discord.gg/62PsHFFQHm"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="nav-bar-dupe-link7"
+                >
+                  WIP Discord
+                </a>
+              </nav>
+            </div>
+            <div class="nav-bar-dupe-icon-group3"></div>
+          </div>
+        </header>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://www.googletagmanager.com/gtag/js?id=G-3JZWTEPZXN"
+      async=""
+    ></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-3JZWTEPZXN');
+    </script>
+    <script type="text/javascript">
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-KCNV8W8');
+    </script>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

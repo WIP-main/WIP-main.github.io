@@ -1,0 +1,210 @@
+.xenos-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.xenos-navbar-interactive {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: rgb(52, 50, 50);
+}
+.xenos-navlink {
+  display: contents;
+}
+.xenos-logo {
+  width: 10%;
+  height: 10%;
+  text-decoration: none;
+}
+.xenos-desktop-menu {
+  display: flex;
+}
+.xenos-nav {
+  flex: 0 0 auto;
+  color: #D9D9D9;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.xenos-navlink01 {
+  color: rgb(217, 217, 217);
+  text-align: center;
+  text-decoration: none;
+}
+.xenos-text {
+  font-size: 20px;
+}
+.xenos-navlink02 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.xenos-navlink03 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.xenos-navlink04 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.xenos-link {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.xenos-text2 {
+  color: #800080;
+  font-size: 20px;
+}
+.xenos-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.xenos-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.xenos-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.xenos-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.xenos-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.xenos-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.xenos-navlink05 {
+  display: contents;
+}
+.xenos-image {
+  height: 2rem;
+  text-decoration: none;
+}
+.xenos-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.xenos-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.xenos-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.xenos-navlink06 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.xenos-navlink07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.xenos-navlink08 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.xenos-navlink09 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.xenos-link1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.xenos-icon-group {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+}
+.xenos-div {
+  align-self: center;
+}
+@media(max-width: 767px) {
+  .xenos-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .xenos-desktop-menu {
+    display: none;
+  }
+  .xenos-navlink02 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .xenos-navlink03 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .xenos-navlink04 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .xenos-link {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .xenos-text2 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .xenos-btn-group {
+    display: none;
+  }
+  .xenos-burger-menu {
+    display: flex;
+  }
+  .xenos-link1 {
+    text-decoration: none;
+  }
+}
+@media(max-width: 479px) {
+  .xenos-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .xenos-logo {
+    width: 15%;
+    height: 15%;
+  }
+  .xenos-icon {
+    width: 55px;
+    height: 55px;
+  }
+  .xenos-mobile-menu {
+    padding: 16px;
+  }
+}
