@@ -1,0 +1,222 @@
+.duck-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #D9D9D9;
+}
+.duck-navbar-interactive {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: rgb(52, 50, 50);
+}
+.duck-navlink {
+  display: contents;
+}
+.duck-logo {
+  width: 10%;
+  height: 10%;
+  text-decoration: none;
+}
+.duck-desktop-menu {
+  display: flex;
+}
+.duck-nav {
+  flex: 0 0 auto;
+  color: #D9D9D9;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.duck-navlink01 {
+  color: rgb(217, 217, 217);
+  text-align: center;
+  text-decoration: none;
+}
+.duck-text {
+  font-size: 20px;
+}
+.duck-navlink02 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.duck-navlink03 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.duck-navlink04 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.duck-link {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.duck-text2 {
+  color: #800080;
+  font-size: 20px;
+}
+.duck-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.duck-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.duck-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.duck-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.duck-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.duck-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.duck-navlink05 {
+  display: contents;
+}
+.duck-image {
+  height: 2rem;
+  text-decoration: none;
+}
+.duck-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.duck-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.duck-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.duck-navlink06 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.duck-navlink07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.duck-navlink08 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.duck-navlink09 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.duck-link1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.duck-icon-group {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+}
+.duck-div {
+  width: auto;
+  height: auto;
+}
+.duck-text4 {
+  text-align: center;
+}
+.duck-text5 {
+  font-size: 26px;
+  font-weight: 400;
+}
+.duck-text7 {
+  font-style: normal;
+  font-weight: 400;
+}
+@media(max-width: 767px) {
+  .duck-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .duck-desktop-menu {
+    display: none;
+  }
+  .duck-navlink02 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .duck-navlink03 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .duck-navlink04 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .duck-link {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .duck-text2 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .duck-btn-group {
+    display: none;
+  }
+  .duck-burger-menu {
+    display: flex;
+  }
+  .duck-link1 {
+    text-decoration: none;
+  }
+}
+@media(max-width: 479px) {
+  .duck-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .duck-logo {
+    width: 15%;
+    height: 15%;
+  }
+  .duck-icon {
+    width: 55px;
+    height: 55px;
+  }
+  .duck-mobile-menu {
+    padding: 16px;
+  }
+}

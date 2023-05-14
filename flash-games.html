@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Flash-Games - WIP</title>
+    <meta property="og:title" content="Flash-Games - WIP" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Source Sans Pro;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/playground_assets/screenshot_2023-05-13_10.49.15_pm-removebg-preview.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+
+    <style data-section-id="dropdown">
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: true });
+    </script>
+  </head>
+  <body>
+    <div>
+      <link href="./flash-games.css" rel="stylesheet" />
+
+      <div class="flash-games-container">
+        <div class="flash-games-container01">
+          <div class="flash-games-container02">
+            <header
+              data-thq="thq-navbar"
+              class="flash-games-navbar-interactive"
+            >
+              <a href="index.html" class="flash-games-navlink">
+                <img
+                  alt="logo"
+                  src="public/playground_assets/images-removebg-preview2-1400w.png"
+                  class="flash-games-logo"
+                />
+              </a>
+              <div
+                data-thq="thq-navbar-nav"
+                data-role="Nav"
+                class="flash-games-desktop-menu"
+              >
+                <nav
+                  data-thq="thq-navbar-nav-links"
+                  data-role="Nav"
+                  class="flash-games-nav"
+                >
+                  <a href="flash-games.html" class="flash-games-navlink01">
+                    <span class="flash-games-text">Flash Games</span>
+                    <br />
+                  </a>
+                  <a href="gameboy-games.html" class="flash-games-navlink02">
+                    Gameboy Games
+                  </a>
+                  <a href="proxies.html" class="flash-games-navlink03">
+                    Proxies
+                  </a>
+                  <a href="guides.html" class="flash-games-navlink04">Guides</a>
+                  <a
+                    href="https://discord.gg/62PsHFFQHm"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="flash-games-link"
+                  >
+                    <span class="flash-games-text02">WIP Discord</span>
+                    <br />
+                  </a>
+                </nav>
+              </div>
+              <div
+                data-thq="thq-navbar-btn-group"
+                class="flash-games-btn-group"
+              ></div>
+              <div data-thq="thq-burger-menu" class="flash-games-burger-menu">
+                <svg viewBox="0 0 1024 1024" class="flash-games-icon">
+                  <path
+                    d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path>
+                </svg>
+              </div>
+              <div data-thq="thq-mobile-menu" class="flash-games-mobile-menu">
+                <div
+                  data-thq="thq-mobile-menu-nav"
+                  data-role="Nav"
+                  class="flash-games-nav1"
+                >
+                  <div class="flash-games-container03">
+                    <a href="index.html" class="flash-games-navlink05">
+                      <img
+                        alt="image"
+                        src="public/playground_assets/images-removebg-preview2-1400w.png"
+                        class="flash-games-image"
+                      />
+                    </a>
+                    <div
+                      data-thq="thq-close-menu"
+                      class="flash-games-menu-close"
+                    >
+                      <svg viewBox="0 0 1024 1024" class="flash-games-icon2">
+                        <path
+                          d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav
+                    data-thq="thq-mobile-menu-nav-links"
+                    data-role="Nav"
+                    class="flash-games-nav2"
+                  >
+                    <a href="flash-games.html" class="flash-games-navlink06">
+                      Flash Games
+                    </a>
+                    <a href="gameboy-games.html" class="flash-games-navlink07">
+                      Gameboy Games
+                    </a>
+                    <a href="proxies.html" class="flash-games-navlink08">
+                      Proxies
+                    </a>
+                    <a href="guides.html" class="flash-games-navlink09">
+                      Guides
+                    </a>
+                    <a
+                      href="https://discord.gg/62PsHFFQHm"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="flash-games-link1"
+                    >
+                      WIP Discord
+                    </a>
+                  </nav>
+                </div>
+                <div class="flash-games-icon-group"></div>
+              </div>
+            </header>
+            <div class="flash-games-features">
+              <div class="flash-games-container04">
+                <h1 class="flash-games-text04">
+                  <span class="flash-games-text05">Flash Games:</span>
+                  <br class="flash-games-text06" />
+                  <span class="flash-games-text07">
+                    Play in full screen or zoom out with ctrl-&nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp;
+                  </span>
+                  <br class="flash-games-text08" />
+                  <span class="flash-games-text09">
+                    (I formatted them for full screen)
+                  </span>
+                  <br class="flash-games-text10" />
+                </h1>
+              </div>
+              <div class="flash-games-container05">
+                <div class="flash-games-container06">
+                  <a href="v1-soccer.html">
+                    <div class="flash-games-feature-card">
+                      <h2 class="flash-games-text11">
+                        <span>1v1 Soccer</span>
+                        <br />
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="awesome-tanks.html">
+                    <div class="flash-games-feature-card01">
+                      <h2 class="flash-games-text14">
+                        <span>Awsome Tanks</span>
+                        <br />
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="btd1.html">
+                    <div class="flash-games-feature-card02">
+                      <h2 class="flash-games-text17">BTD 1</h2>
+                    </div>
+                  </a>
+                  <a href="bob-the-robber.html">
+                    <div class="flash-games-feature-card03">
+                      <h2 class="flash-games-text18">
+                        <span>Bob the Robber</span>
+                        <br />
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="cannon-basketball.html">
+                    <div class="flash-games-feature-card04">
+                      <h2 class="flash-games-text21">Cannon Basketball</h2>
+                    </div>
+                  </a>
+                  <a href="donkey-kong.html">
+                    <div class="flash-games-feature-card05">
+                      <h2 class="flash-games-text22">Donkey Kong</h2>
+                    </div>
+                  </a>
+                  <a href="duck-life.html">
+                    <div class="flash-games-feature-card06">
+                      <h2 class="flash-games-text23">Duck Life</h2>
+                    </div>
+                  </a>
+                  <a href="duck-life-2.html">
+                    <div class="flash-games-feature-card07">
+                      <h2 class="flash-games-text24">Duck Life 2</h2>
+                    </div>
+                  </a>
+                </div>
+                <div class="flash-games-container07">
+                  <a href="factory-balls.html">
+                    <div class="flash-games-feature-card08">
+                      <h2 class="flash-games-text25">
+                        <span>Factory Balls</span>
+                        <br />
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="factory-balls-2.html">
+                    <div class="flash-games-feature-card09">
+                      <h2 class="flash-games-text28">Factory Balls 2</h2>
+                    </div>
+                  </a>
+                  <a href="factory-balls-3.html">
+                    <div class="flash-games-feature-card10">
+                      <h2 class="flash-games-text29">Factory Balls 3</h2>
+                    </div>
+                  </a>
+                  <a href="fancy-pants.html">
+                    <div class="flash-games-feature-card11">
+                      <h2 class="flash-games-text30">Fancy Pants 1</h2>
+                    </div>
+                  </a>
+                  <a href="fancy-pants-2.html">
+                    <div class="flash-games-feature-card12">
+                      <h2 class="flash-games-text31">Fancy Pants 2</h2>
+                    </div>
+                  </a>
+                  <a href="learn-to-fly.html">
+                    <div class="flash-games-feature-card13">
+                      <h2 class="flash-games-text32">Learn to Fly</h2>
+                    </div>
+                  </a>
+                  <a href="learn-2-fly.html">
+                    <div class="flash-games-feature-card14">
+                      <h2 class="flash-games-text33">Learn 2 Fly</h2>
+                    </div>
+                  </a>
+                  <a href="mirrors-edge.html">
+                    <div class="flash-games-feature-card15">
+                      <h2 class="flash-games-text34">Mirrors Edge</h2>
+                    </div>
+                  </a>
+                </div>
+                <div class="flash-games-container08">
+                  <a href="newgrounds-rumble.html">
+                    <div class="flash-games-feature-card16">
+                      <h2 class="flash-games-text35">
+                        <span>Newgrounds&nbsp;</span>
+                        <br />
+                        <span>Rumble</span>
+                        <br />
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="pacman.html">
+                    <div class="flash-games-feature-card17">
+                      <h2 class="flash-games-text40">Pacman</h2>
+                    </div>
+                  </a>
+                  <a href="papa-louie.html">
+                    <div class="flash-games-feature-card18">
+                      <h2 class="flash-games-text41">Papa Louie</h2>
+                    </div>
+                  </a>
+                  <a href="portal.html">
+                    <div class="flash-games-feature-card19">
+                      <h2 class="flash-games-text42">Portal</h2>
+                    </div>
+                  </a>
+                  <a href="run-2.html">
+                    <div class="flash-games-feature-card20">
+                      <h2 class="flash-games-text43">Run 2</h2>
+                    </div>
+                  </a>
+                  <a href="sugar-sugar.html">
+                    <div class="flash-games-feature-card21">
+                      <h2 class="flash-games-text44">Sugar Sugar</h2>
+                    </div>
+                  </a>
+                  <a href="tanks.html">
+                    <div class="flash-games-feature-card22">
+                      <h2 class="flash-games-text45">Tanks</h2>
+                    </div>
+                  </a>
+                  <a href="tetris.html">
+                    <div class="flash-games-feature-card23">
+                      <h2 class="flash-games-text46">
+                        <span>Tetris</span>
+                        <br />
+                      </h2>
+                    </div>
+                  </a>
+                </div>
+                <div class="flash-games-container09">
+                  <a href="the-impossible-quiz.html">
+                    <div class="flash-games-feature-card24">
+                      <h2 class="flash-games-text49">
+                        <span>Impossible</span>
+                        <br />
+                        <span>Quiz</span>
+                        <br />
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="this-is-the-only-level.html">
+                    <div class="flash-games-feature-card25">
+                      <h2 class="flash-games-text54">
+                        <span>THIS IS THE</span>
+                        <br />
+                        <span>ONLY LEVEL</span>
+                        <br />
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="vex.html">
+                    <div class="flash-games-feature-card26">
+                      <h2 class="flash-games-text59">Vex</h2>
+                    </div>
+                  </a>
+                  <a href="xenos.html">
+                    <div class="flash-games-feature-card27">
+                      <h2 class="flash-games-text60">Xenos</h2>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="flash-games-text61">
+          <span>
+            If you want a game that isn't on this list, open github.com search
+            the "name of the game you want.swf"Then open a proxy and open
+          </span>
+          <br />
+          <span>
+            Ruffle or Waflash to play it.(most actionscript 3 games don't work,
+            beware)
+          </span>
+        </span>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://www.googletagmanager.com/gtag/js?id=G-3JZWTEPZXN"
+      async=""
+    ></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-3JZWTEPZXN');
+    </script>
+    <script type="text/javascript">
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-KCNV8W8');
+    </script>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

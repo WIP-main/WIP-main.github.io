@@ -1,0 +1,212 @@
+.awesome-tanks-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.awesome-tanks-navbar-interactive {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: rgb(52, 50, 50);
+}
+.awesome-tanks-navlink {
+  display: contents;
+}
+.awesome-tanks-logo {
+  width: 10%;
+  height: 10%;
+  text-decoration: none;
+}
+.awesome-tanks-desktop-menu {
+  display: flex;
+}
+.awesome-tanks-nav {
+  flex: 0 0 auto;
+  color: #D9D9D9;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.awesome-tanks-navlink01 {
+  color: rgb(217, 217, 217);
+  text-align: center;
+  text-decoration: none;
+}
+.awesome-tanks-text {
+  font-size: 20px;
+}
+.awesome-tanks-navlink02 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.awesome-tanks-navlink03 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.awesome-tanks-navlink04 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.awesome-tanks-link {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.awesome-tanks-text2 {
+  color: #800080;
+  font-size: 20px;
+}
+.awesome-tanks-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.awesome-tanks-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.awesome-tanks-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.awesome-tanks-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.awesome-tanks-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.awesome-tanks-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.awesome-tanks-navlink05 {
+  display: contents;
+}
+.awesome-tanks-image {
+  height: 2rem;
+  text-decoration: none;
+}
+.awesome-tanks-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.awesome-tanks-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.awesome-tanks-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.awesome-tanks-navlink06 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.awesome-tanks-navlink07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.awesome-tanks-navlink08 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.awesome-tanks-navlink09 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.awesome-tanks-link1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.awesome-tanks-icon-group {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+}
+.awesome-tanks-div {
+  width: 1003px;
+  height: 700px;
+  align-self: center;
+}
+@media(max-width: 767px) {
+  .awesome-tanks-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .awesome-tanks-desktop-menu {
+    display: none;
+  }
+  .awesome-tanks-navlink02 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .awesome-tanks-navlink03 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .awesome-tanks-navlink04 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .awesome-tanks-link {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .awesome-tanks-text2 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .awesome-tanks-btn-group {
+    display: none;
+  }
+  .awesome-tanks-burger-menu {
+    display: flex;
+  }
+  .awesome-tanks-link1 {
+    text-decoration: none;
+  }
+}
+@media(max-width: 479px) {
+  .awesome-tanks-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .awesome-tanks-logo {
+    width: 15%;
+    height: 15%;
+  }
+  .awesome-tanks-icon {
+    width: 55px;
+    height: 55px;
+  }
+  .awesome-tanks-mobile-menu {
+    padding: 16px;
+  }
+}

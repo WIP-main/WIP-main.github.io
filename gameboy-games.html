@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Gameboy-Games - WIP</title>
+    <meta property="og:title" content="Gameboy-Games - WIP" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Source Sans Pro;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/playground_assets/screenshot_2023-05-13_10.49.15_pm-removebg-preview.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+
+    <style data-section-id="dropdown">
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: true });
+    </script>
+  </head>
+  <body>
+    <div>
+      <link href="./gameboy-games.css" rel="stylesheet" />
+
+      <div class="gameboy-games-container">
+        <header data-thq="thq-navbar" class="gameboy-games-navbar-interactive">
+          <a href="index.html" class="gameboy-games-navlink">
+            <img
+              alt="logo"
+              src="public/playground_assets/images-removebg-preview2-200h.png"
+              class="gameboy-games-logo"
+            />
+          </a>
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="gameboy-games-desktop-menu"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="gameboy-games-nav"
+            >
+              <a href="flash-games.html" class="gameboy-games-navlink01">
+                <span class="gameboy-games-text">Flash Games</span>
+                <br />
+              </a>
+              <a href="gameboy-games.html" class="gameboy-games-navlink02">
+                Gameboy Games
+              </a>
+              <a href="proxies.html" class="gameboy-games-navlink03">Proxies</a>
+              <a href="guides.html" class="gameboy-games-navlink04">Guides</a>
+              <a
+                href="https://discord.gg/62PsHFFQHm"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="gameboy-games-link"
+              >
+                <span class="gameboy-games-text002">WIP Discord</span>
+                <br />
+              </a>
+            </nav>
+          </div>
+          <div
+            data-thq="thq-navbar-btn-group"
+            class="gameboy-games-btn-group"
+          ></div>
+          <div data-thq="thq-burger-menu" class="gameboy-games-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="gameboy-games-icon">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div data-thq="thq-mobile-menu" class="gameboy-games-mobile-menu">
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="gameboy-games-nav1"
+            >
+              <div class="gameboy-games-container01">
+                <a href="index.html" class="gameboy-games-navlink05">
+                  <img
+                    alt="image"
+                    src="public/playground_assets/images-removebg-preview2-200h.png"
+                    class="gameboy-games-image"
+                  />
+                </a>
+                <div data-thq="thq-close-menu" class="gameboy-games-menu-close">
+                  <svg viewBox="0 0 1024 1024" class="gameboy-games-icon2">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="gameboy-games-nav2"
+              >
+                <a href="flash-games.html" class="gameboy-games-navlink06">
+                  Flash Games
+                </a>
+                <a href="gameboy-games.html" class="gameboy-games-navlink07">
+                  Gameboy Games
+                </a>
+                <a href="proxies.html" class="gameboy-games-navlink08">
+                  Proxies
+                </a>
+                <a href="guides.html" class="gameboy-games-navlink09">Guides</a>
+                <a
+                  href="https://discord.gg/62PsHFFQHm"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="gameboy-games-link1"
+                >
+                  WIP Discord
+                </a>
+              </nav>
+            </div>
+            <div class="gameboy-games-icon-group"></div>
+          </div>
+        </header>
+        <div class="gameboy-games-container02">
+          <div class="gameboy-games-container03">
+            <div class="gameboy-games-features">
+              <div class="gameboy-games-container04">
+                <h1 class="gameboy-games-text004">
+                  <span class="gameboy-games-text005">Gameboy Games:</span>
+                  <br class="gameboy-games-text006" />
+                  <span class="gameboy-games-text007">
+                    Play in full screen or zoom out with ctrl-&nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp;
+                  </span>
+                  <br class="gameboy-games-text008" />
+                  <span class="gameboy-games-text009">
+                    (I formatted them for full screen)
+                  </span>
+                  <span class="gameboy-games-text010">
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  </span>
+                  <br class="gameboy-games-text011" />
+                  <span class="gameboy-games-text012">
+                    Controls vary by the game, are usually x,z,a,enter,and
+                    space&nbsp;
+                  </span>
+                  <br class="gameboy-games-text013" />
+                  <span class="gameboy-games-text014">
+                    P is for play, R restarts the game, and there is a speed
+                    slider to skip long text or loading.
+                  </span>
+                  <br class="gameboy-games-text015" />
+                </h1>
+              </div>
+              <div class="gameboy-games-container05">
+                <div class="gameboy-games-container06">
+                  <a href="advance-wars.html">
+                    <div class="gameboy-games-feature-card">
+                      <h2 class="gameboy-games-text016">
+                        <span>Advance Wars</span>
+                        <br />
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="dragon-ball-z.html">
+                    <div class="gameboy-games-feature-card01">
+                      <h2 class="gameboy-games-text019">
+                        <span>Dragon Ball</span>
+                        <br />
+                        <span>Z SW</span>
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="earthworm-jim.html">
+                    <div class="gameboy-games-feature-card02">
+                      <h2 class="gameboy-games-text023">
+                        <span>Earthworm</span>
+                        <br />
+                        <span>Jim</span>
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="earthworm-jim-2.html">
+                    <div class="gameboy-games-feature-card03">
+                      <h2 class="gameboy-games-text027">
+                        <span>Earthworm</span>
+                        <br />
+                        <span>Jim 2</span>
+                        <br />
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="fire-emblem.html">
+                    <div class="gameboy-games-feature-card04">
+                      <h2 class="gameboy-games-text032">Fire Emblem</h2>
+                    </div>
+                  </a>
+                  <a href="game-and-watch-games.html">
+                    <div class="gameboy-games-feature-card05">
+                      <h2 class="gameboy-games-text033">
+                        <span>Game and</span>
+                        <br />
+                        <span>Watch Games</span>
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="kirby-and-the-mirror.html">
+                    <div class="gameboy-games-feature-card06">
+                      <h2 class="gameboy-games-text037">
+                        <span>Kirby:</span>
+                        <br />
+                        <span>Amazing Mirror</span>
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="kirby-nid.html">
+                    <div class="gameboy-games-feature-card07">
+                      <h2 class="gameboy-games-text041">
+                        <span>Kirby:</span>
+                        <br />
+                        <span>Nightmare&nbsp;</span>
+                      </h2>
+                    </div>
+                  </a>
+                </div>
+                <div class="gameboy-games-container07">
+                  <a href="ma-l.html">
+                    <div class="gameboy-games-feature-card08">
+                      <h2 class="gameboy-games-text045">
+                        <span>Mario and</span>
+                        <br />
+                        <span>Luigi: SS</span>
+                        <br />
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="mario-kart.html">
+                    <div class="gameboy-games-feature-card09">
+                      <h2 class="gameboy-games-text050">Mario Kart</h2>
+                    </div>
+                  </a>
+                  <a href="mario-party.html">
+                    <div class="gameboy-games-feature-card10">
+                      <h2 class="gameboy-games-text051">Mario Party</h2>
+                    </div>
+                  </a>
+                  <a href="megaman.html">
+                    <div class="gameboy-games-feature-card11">
+                      <h2 class="gameboy-games-text052">Megaman</h2>
+                    </div>
+                  </a>
+                  <a href="monopoly.html">
+                    <div class="gameboy-games-feature-card12">
+                      <h2 class="gameboy-games-text053">Monopoly</h2>
+                    </div>
+                  </a>
+                  <a href="mortal-kombat.html">
+                    <div class="gameboy-games-feature-card13">
+                      <h2 class="gameboy-games-text054">Mortal Kombat</h2>
+                    </div>
+                  </a>
+                  <a href="one-piece.html">
+                    <div class="gameboy-games-feature-card14">
+                      <h2 class="gameboy-games-text055">One Piece</h2>
+                    </div>
+                  </a>
+                  <a href="pacman-world.html">
+                    <div class="gameboy-games-feature-card15">
+                      <h2 class="gameboy-games-text056">Pacman</h2>
+                    </div>
+                  </a>
+                </div>
+                <div class="gameboy-games-container08">
+                  <a href="pokemon-e.html">
+                    <div class="gameboy-games-feature-card16">
+                      <h2 class="gameboy-games-text057">
+                        <span>Pokemon:</span>
+                        <br />
+                        <span>Emerald</span>
+                        <br />
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="pokemon-r.html">
+                    <div class="gameboy-games-feature-card17">
+                      <h2 class="gameboy-games-text062">Pokemon Ruby</h2>
+                    </div>
+                  </a>
+                  <a href="pokemon-s.html">
+                    <div class="gameboy-games-feature-card18">
+                      <h2 class="gameboy-games-text063">
+                        <span>Pokemon</span>
+                        <br />
+                        <span>Sapphire&nbsp;</span>
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="sonic.html">
+                    <div class="gameboy-games-feature-card19">
+                      <h2 class="gameboy-games-text067">Sonic</h2>
+                    </div>
+                  </a>
+                  <a href="sonic-battle.html">
+                    <div class="gameboy-games-feature-card20">
+                      <h2 class="gameboy-games-text068">
+                        <span>Sonic</span>
+                        <br />
+                        <span>Battle</span>
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="spyro-adventure.html">
+                    <div class="gameboy-games-feature-card21">
+                      <h2 class="gameboy-games-text072">Spyro</h2>
+                    </div>
+                  </a>
+                  <a href="street-fighter-ii.html">
+                    <div class="gameboy-games-feature-card22">
+                      <h2 class="gameboy-games-text073">
+                        <span>Street</span>
+                        <br />
+                        <span>fighter II</span>
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="tmnt.html">
+                    <div class="gameboy-games-feature-card23">
+                      <h2 class="gameboy-games-text077">
+                        <span>TMNT</span>
+                        <br />
+                      </h2>
+                    </div>
+                  </a>
+                </div>
+                <div class="gameboy-games-container09">
+                  <a href="tetris-worlds.html">
+                    <div class="gameboy-games-feature-card24">
+                      <h2 class="gameboy-games-text080">
+                        <span>Tetris</span>
+                        <br />
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="sims-bo.html">
+                    <div class="gameboy-games-feature-card25">
+                      <h2 class="gameboy-games-text083">
+                        <span>The Sims:</span>
+                        <br />
+                        <span>Bustin Out</span>
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="sims-2.html">
+                    <div class="gameboy-games-feature-card26">
+                      <h2 class="gameboy-games-text087">The Sims 2</h2>
+                    </div>
+                  </a>
+                  <a href="simpsons.html">
+                    <div class="gameboy-games-feature-card27">
+                      <h2 class="gameboy-games-text088">
+                        <span>The Simpsons:</span>
+                        <br />
+                        <span>Road Rage</span>
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="wario-land.html">
+                    <div class="gameboy-games-feature-card28">
+                      <h2 class="gameboy-games-text092">Wario Land 4</h2>
+                    </div>
+                  </a>
+                  <a href="wario-ware.html">
+                    <div class="gameboy-games-feature-card29">
+                      <h2 class="gameboy-games-text093">Wario Ware</h2>
+                    </div>
+                  </a>
+                  <a href="zelda-past.html">
+                    <div class="gameboy-games-feature-card30">
+                      <h2 class="gameboy-games-text094">
+                        <span>Zelda:</span>
+                        <br />
+                        <span>link to the past</span>
+                      </h2>
+                    </div>
+                  </a>
+                  <a href="zelda-minish.html">
+                    <div class="gameboy-games-feature-card31">
+                      <h2 class="gameboy-games-text098">
+                        <span>Zelda:</span>
+                        <br />
+                        <span>Minish Cap</span>
+                        <br />
+                      </h2>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://www.googletagmanager.com/gtag/js?id=G-3JZWTEPZXN"
+      async=""
+    ></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-3JZWTEPZXN');
+    </script>
+    <script type="text/javascript">
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-KCNV8W8');
+    </script>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
