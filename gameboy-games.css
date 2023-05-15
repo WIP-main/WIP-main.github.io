@@ -244,24 +244,22 @@
   font-weight: 600;
 }
 .gameboy-games-text07 {
-  color: var(--dl-color-gray-black);
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
 }
 .gameboy-games-text08 {
-  color: var(--dl-color-gray-black);
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
 }
 .gameboy-games-text09 {
-  font-size: 32px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 600;
 }
 .gameboy-games-text10 {
-  font-size: 32px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 600;
 }
