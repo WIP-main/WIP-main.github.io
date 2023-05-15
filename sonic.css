@@ -5,19 +5,19 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  background-color: #D9D9D9;
+  background-size: cover;
+  background-image: url("public/playground_assets/wallpaperflare.com_wallpaper%20%5B4%5D-1500w.jpg");
 }
 .sonic-navbar-interactive {
   width: 100%;
   display: flex;
   position: relative;
   align-items: center;
-  padding-top: var(--dl-space-space-twounits);
+  padding-top: 0px;
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-twounits);
+  padding-bottom: 0px;
   justify-content: space-between;
-  background-color: rgb(52, 50, 50);
 }
 .sonic-navlink {
   display: contents;
@@ -29,10 +29,13 @@
 }
 .sonic-desktop-menu {
   display: flex;
+  position: relative;
 }
 .sonic-nav {
-  flex: 0 0 auto;
-  color: #D9D9D9;
+  flex: 1;
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  height: 100%;
   display: flex;
   align-self: center;
   align-items: center;
@@ -40,41 +43,48 @@
   justify-content: center;
 }
 .sonic-navlink01 {
-  color: rgb(217, 217, 217);
+  font-size: 25px;
   text-align: center;
   text-decoration: none;
 }
-.sonic-text {
-  font-size: 20px;
-}
 .sonic-navlink02 {
-  font-size: 20px;
+  font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .sonic-navlink03 {
-  font-size: 20px;
+  font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .sonic-navlink04 {
-  font-size: 20px;
+  font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.sonic-link {
+.sonic-navlink05 {
+  font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.sonic-text2 {
-  color: #800080;
-  font-size: 20px;
+.sonic-navlink06 {
+  font-size: 25px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
 .sonic-btn-group {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+}
+.sonic-link {
+  display: contents;
+}
+.sonic-image {
+  width: 100px;
+  object-fit: cover;
+  text-decoration: none;
 }
 .sonic-burger-menu {
   display: none;
@@ -90,10 +100,12 @@
   left: 0px;
   width: 100%;
   height: 100vh;
-  display: none;
+  display: flex;
   padding: 32px;
   z-index: 100;
   position: fixed;
+  transform: translateX(100%);
+  transition: 0.5s;
   flex-direction: column;
   justify-content: space-between;
   background-color: #fff;
@@ -110,10 +122,10 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.sonic-navlink05 {
+.sonic-navlink07 {
   display: contents;
 }
-.sonic-image {
+.sonic-image1 {
   height: 2rem;
   text-decoration: none;
 }
@@ -132,14 +144,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.sonic-navlink06 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.sonic-navlink07 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .sonic-navlink08 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -148,7 +152,23 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
+.sonic-navlink10 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.sonic-navlink11 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .sonic-link1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.sonic-link2 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.sonic-link3 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -157,8 +177,8 @@
   display: flex;
 }
 .sonic-div {
-  width: 1000px;
-  height: 700px;
+  width: 1440px;
+  height: 910px;
 }
 @media(max-width: 767px) {
   .sonic-navbar-interactive {
@@ -177,10 +197,10 @@
   .sonic-navlink04 {
     margin-left: var(--dl-space-space-unit);
   }
-  .sonic-link {
+  .sonic-navlink05 {
     margin-left: var(--dl-space-space-unit);
   }
-  .sonic-text2 {
+  .sonic-navlink06 {
     margin-left: var(--dl-space-space-unit);
   }
   .sonic-btn-group {
@@ -190,6 +210,12 @@
     display: flex;
   }
   .sonic-link1 {
+    text-decoration: none;
+  }
+  .sonic-link2 {
+    text-decoration: none;
+  }
+  .sonic-link3 {
     text-decoration: none;
   }
 }

@@ -1,4 +1,4 @@
-.mortal-kombat-container {
+.interstellar-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -8,7 +8,7 @@
   background-size: cover;
   background-image: url("public/playground_assets/wallpaperflare.com_wallpaper%20%5B4%5D-1500w.jpg");
 }
-.mortal-kombat-navbar-interactive {
+.interstellar-navbar-interactive {
   width: 100%;
   display: flex;
   position: relative;
@@ -19,19 +19,19 @@
   padding-bottom: 0px;
   justify-content: space-between;
 }
-.mortal-kombat-navlink {
+.interstellar-navlink {
   display: contents;
 }
-.mortal-kombat-logo {
+.interstellar-logo {
   width: 10%;
   height: 10%;
   text-decoration: none;
 }
-.mortal-kombat-desktop-menu {
+.interstellar-desktop-menu {
   display: flex;
   position: relative;
 }
-.mortal-kombat-nav {
+.interstellar-nav {
   flex: 1;
   color: var(--dl-color-gray-black);
   width: 100%;
@@ -42,60 +42,60 @@
   flex-direction: row;
   justify-content: center;
 }
-.mortal-kombat-navlink01 {
+.interstellar-navlink01 {
   font-size: 25px;
   text-align: center;
   text-decoration: none;
 }
-.mortal-kombat-navlink02 {
+.interstellar-navlink02 {
   font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.mortal-kombat-navlink03 {
+.interstellar-navlink03 {
   font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.mortal-kombat-navlink04 {
+.interstellar-navlink04 {
   font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.mortal-kombat-navlink05 {
+.interstellar-navlink05 {
   font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.mortal-kombat-navlink06 {
+.interstellar-navlink06 {
   font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.mortal-kombat-btn-group {
+.interstellar-btn-group {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.mortal-kombat-link {
+.interstellar-link {
   display: contents;
 }
-.mortal-kombat-image {
+.interstellar-image {
   width: 100px;
   object-fit: cover;
   text-decoration: none;
 }
-.mortal-kombat-burger-menu {
+.interstellar-burger-menu {
   display: none;
   align-items: center;
   justify-content: center;
 }
-.mortal-kombat-icon {
+.interstellar-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.mortal-kombat-mobile-menu {
+.interstellar-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -110,128 +110,186 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.mortal-kombat-nav1 {
+.interstellar-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.mortal-kombat-container1 {
+.interstellar-container1 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.mortal-kombat-navlink07 {
+.interstellar-navlink07 {
   display: contents;
 }
-.mortal-kombat-image1 {
+.interstellar-image1 {
   height: 2rem;
   text-decoration: none;
 }
-.mortal-kombat-menu-close {
+.interstellar-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.mortal-kombat-icon2 {
+.interstellar-icon2 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.mortal-kombat-nav2 {
+.interstellar-nav2 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.mortal-kombat-navlink08 {
+.interstellar-navlink08 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.mortal-kombat-navlink09 {
+.interstellar-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.mortal-kombat-navlink10 {
+.interstellar-navlink10 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.mortal-kombat-navlink11 {
+.interstellar-navlink11 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.mortal-kombat-link1 {
+.interstellar-link1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.mortal-kombat-link2 {
+.interstellar-link2 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.mortal-kombat-link3 {
+.interstellar-link3 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.mortal-kombat-icon-group {
+.interstellar-icon-group {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
 }
-.mortal-kombat-div {
-  width: 1440px;
-  height: 910px;
+.interstellar-div {
+  width: 1385px;
+  height: 765px;
+}
+.interstellar-text02 {
+  text-align: center;
+}
+.interstellar-text03 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.interstellar-text04 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.interstellar-text05 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.interstellar-text06 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.interstellar-text07 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.interstellar-text08 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.interstellar-text09 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.interstellar-text10 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.interstellar-text11 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.interstellar-text12 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.interstellar-text13 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
 }
 @media(max-width: 767px) {
-  .mortal-kombat-navbar-interactive {
+  .interstellar-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .mortal-kombat-desktop-menu {
+  .interstellar-desktop-menu {
     display: none;
   }
-  .mortal-kombat-navlink02 {
+  .interstellar-navlink02 {
     margin-left: var(--dl-space-space-unit);
   }
-  .mortal-kombat-navlink03 {
+  .interstellar-navlink03 {
     margin-left: var(--dl-space-space-unit);
   }
-  .mortal-kombat-navlink04 {
+  .interstellar-navlink04 {
     margin-left: var(--dl-space-space-unit);
   }
-  .mortal-kombat-navlink05 {
+  .interstellar-navlink05 {
     margin-left: var(--dl-space-space-unit);
   }
-  .mortal-kombat-navlink06 {
+  .interstellar-navlink06 {
     margin-left: var(--dl-space-space-unit);
   }
-  .mortal-kombat-btn-group {
+  .interstellar-btn-group {
     display: none;
   }
-  .mortal-kombat-burger-menu {
+  .interstellar-burger-menu {
     display: flex;
   }
-  .mortal-kombat-link1 {
+  .interstellar-link1 {
     text-decoration: none;
   }
-  .mortal-kombat-link2 {
+  .interstellar-link2 {
     text-decoration: none;
   }
-  .mortal-kombat-link3 {
+  .interstellar-link3 {
     text-decoration: none;
   }
 }
 @media(max-width: 479px) {
-  .mortal-kombat-navbar-interactive {
+  .interstellar-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
-  .mortal-kombat-logo {
+  .interstellar-logo {
     width: 15%;
     height: 15%;
   }
-  .mortal-kombat-icon {
+  .interstellar-icon {
     width: 55px;
     height: 55px;
   }
-  .mortal-kombat-mobile-menu {
+  .interstellar-mobile-menu {
     padding: 16px;
   }
 }

@@ -5,19 +5,19 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  background-color: #D9D9D9;
+  background-size: cover;
+  background-image: url("public/playground_assets/wallpaperflare.com_wallpaper%20%5B4%5D-1500w.jpg");
 }
 .zelda-minish-navbar-interactive {
   width: 100%;
   display: flex;
   position: relative;
   align-items: center;
-  padding-top: var(--dl-space-space-twounits);
+  padding-top: 0px;
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-twounits);
+  padding-bottom: 0px;
   justify-content: space-between;
-  background-color: rgb(52, 50, 50);
 }
 .zelda-minish-navlink {
   display: contents;
@@ -29,10 +29,13 @@
 }
 .zelda-minish-desktop-menu {
   display: flex;
+  position: relative;
 }
 .zelda-minish-nav {
-  flex: 0 0 auto;
-  color: #D9D9D9;
+  flex: 1;
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  height: 100%;
   display: flex;
   align-self: center;
   align-items: center;
@@ -40,41 +43,48 @@
   justify-content: center;
 }
 .zelda-minish-navlink01 {
-  color: rgb(217, 217, 217);
+  font-size: 25px;
   text-align: center;
   text-decoration: none;
 }
-.zelda-minish-text {
-  font-size: 20px;
-}
 .zelda-minish-navlink02 {
-  font-size: 20px;
+  font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .zelda-minish-navlink03 {
-  font-size: 20px;
+  font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .zelda-minish-navlink04 {
-  font-size: 20px;
+  font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.zelda-minish-link {
+.zelda-minish-navlink05 {
+  font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.zelda-minish-text2 {
-  color: #800080;
-  font-size: 20px;
+.zelda-minish-navlink06 {
+  font-size: 25px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
 .zelda-minish-btn-group {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+}
+.zelda-minish-link {
+  display: contents;
+}
+.zelda-minish-image {
+  width: 100px;
+  object-fit: cover;
+  text-decoration: none;
 }
 .zelda-minish-burger-menu {
   display: none;
@@ -90,10 +100,12 @@
   left: 0px;
   width: 100%;
   height: 100vh;
-  display: none;
+  display: flex;
   padding: 32px;
   z-index: 100;
   position: fixed;
+  transform: translateX(100%);
+  transition: 0.5s;
   flex-direction: column;
   justify-content: space-between;
   background-color: #fff;
@@ -110,10 +122,10 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.zelda-minish-navlink05 {
+.zelda-minish-navlink07 {
   display: contents;
 }
-.zelda-minish-image {
+.zelda-minish-image1 {
   height: 2rem;
   text-decoration: none;
 }
@@ -132,14 +144,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.zelda-minish-navlink06 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.zelda-minish-navlink07 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .zelda-minish-navlink08 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -148,7 +152,23 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
+.zelda-minish-navlink10 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.zelda-minish-navlink11 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .zelda-minish-link1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.zelda-minish-link2 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.zelda-minish-link3 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -157,8 +177,8 @@
   display: flex;
 }
 .zelda-minish-div {
-  width: 1000px;
-  height: 700px;
+  width: 1440px;
+  height: 910px;
 }
 @media(max-width: 767px) {
   .zelda-minish-navbar-interactive {
@@ -177,10 +197,10 @@
   .zelda-minish-navlink04 {
     margin-left: var(--dl-space-space-unit);
   }
-  .zelda-minish-link {
+  .zelda-minish-navlink05 {
     margin-left: var(--dl-space-space-unit);
   }
-  .zelda-minish-text2 {
+  .zelda-minish-navlink06 {
     margin-left: var(--dl-space-space-unit);
   }
   .zelda-minish-btn-group {
@@ -190,6 +210,12 @@
     display: flex;
   }
   .zelda-minish-link1 {
+    text-decoration: none;
+  }
+  .zelda-minish-link2 {
+    text-decoration: none;
+  }
+  .zelda-minish-link3 {
     text-decoration: none;
   }
 }
