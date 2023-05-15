@@ -1,15 +1,24 @@
-.awesome-tanks-container {
+.credits-container {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/wallpaperflare.com_wallpaper%20%5B4%5D-1500w.jpg");
+}
+.credits-container1 {
   width: 100%;
   display: flex;
   overflow: auto;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  background-size: cover;
   justify-content: flex-start;
-  background-image: url("public/playground_assets/wallpaperflare.com_wallpaper%20%5B4%5D-1500w.jpg");
 }
-.awesome-tanks-navbar-interactive {
+.credits-navbar-interactive {
   width: 100%;
   display: flex;
   position: relative;
@@ -20,19 +29,19 @@
   padding-bottom: 0px;
   justify-content: space-between;
 }
-.awesome-tanks-navlink {
+.credits-navlink {
   display: contents;
 }
-.awesome-tanks-logo {
+.credits-logo {
   width: 10%;
   height: 10%;
   text-decoration: none;
 }
-.awesome-tanks-desktop-menu {
+.credits-desktop-menu {
   display: flex;
   position: relative;
 }
-.awesome-tanks-nav {
+.credits-nav {
   flex: 1;
   color: var(--dl-color-gray-black);
   width: 100%;
@@ -43,60 +52,60 @@
   flex-direction: row;
   justify-content: center;
 }
-.awesome-tanks-navlink01 {
+.credits-navlink01 {
   font-size: 25px;
   text-align: center;
   text-decoration: none;
 }
-.awesome-tanks-navlink02 {
+.credits-navlink02 {
   font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.awesome-tanks-navlink03 {
+.credits-navlink03 {
   font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.awesome-tanks-navlink04 {
+.credits-navlink04 {
   font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.awesome-tanks-navlink05 {
+.credits-navlink05 {
   font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.awesome-tanks-navlink06 {
+.credits-navlink06 {
   font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.awesome-tanks-btn-group {
+.credits-btn-group {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.awesome-tanks-link {
+.credits-link {
   display: contents;
 }
-.awesome-tanks-image {
+.credits-image {
   width: 100px;
   object-fit: cover;
   text-decoration: none;
 }
-.awesome-tanks-burger-menu {
+.credits-burger-menu {
   display: none;
   align-items: center;
   justify-content: center;
 }
-.awesome-tanks-icon {
+.credits-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.awesome-tanks-mobile-menu {
+.credits-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -111,129 +120,129 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.awesome-tanks-nav1 {
+.credits-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.awesome-tanks-container1 {
+.credits-container2 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.awesome-tanks-navlink07 {
+.credits-navlink07 {
   display: contents;
 }
-.awesome-tanks-image1 {
+.credits-image1 {
   height: 2rem;
   text-decoration: none;
 }
-.awesome-tanks-menu-close {
+.credits-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.awesome-tanks-icon2 {
+.credits-icon2 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.awesome-tanks-nav2 {
+.credits-nav2 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.awesome-tanks-navlink08 {
+.credits-navlink08 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.awesome-tanks-navlink09 {
+.credits-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.awesome-tanks-navlink10 {
+.credits-navlink10 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.awesome-tanks-navlink11 {
+.credits-navlink11 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.awesome-tanks-link1 {
+.credits-link1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.awesome-tanks-link2 {
+.credits-link2 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.awesome-tanks-link3 {
+.credits-link3 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.awesome-tanks-icon-group {
+.credits-icon-group {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
 }
-.awesome-tanks-div {
-  width: 1440px;
-  height: 910px;
-  align-self: center;
+.credits-text02 {
+  color: rgb(0, 0, 0);
+  width: 50%;
+  text-align: center;
 }
 @media(max-width: 767px) {
-  .awesome-tanks-navbar-interactive {
+  .credits-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .awesome-tanks-desktop-menu {
+  .credits-desktop-menu {
     display: none;
   }
-  .awesome-tanks-navlink02 {
+  .credits-navlink02 {
     margin-left: var(--dl-space-space-unit);
   }
-  .awesome-tanks-navlink03 {
+  .credits-navlink03 {
     margin-left: var(--dl-space-space-unit);
   }
-  .awesome-tanks-navlink04 {
+  .credits-navlink04 {
     margin-left: var(--dl-space-space-unit);
   }
-  .awesome-tanks-navlink05 {
+  .credits-navlink05 {
     margin-left: var(--dl-space-space-unit);
   }
-  .awesome-tanks-navlink06 {
+  .credits-navlink06 {
     margin-left: var(--dl-space-space-unit);
   }
-  .awesome-tanks-btn-group {
+  .credits-btn-group {
     display: none;
   }
-  .awesome-tanks-burger-menu {
+  .credits-burger-menu {
     display: flex;
   }
-  .awesome-tanks-link1 {
+  .credits-link1 {
     text-decoration: none;
   }
-  .awesome-tanks-link2 {
+  .credits-link2 {
     text-decoration: none;
   }
-  .awesome-tanks-link3 {
+  .credits-link3 {
     text-decoration: none;
   }
 }
 @media(max-width: 479px) {
-  .awesome-tanks-navbar-interactive {
+  .credits-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
-  .awesome-tanks-logo {
+  .credits-logo {
     width: 15%;
     height: 15%;
   }
-  .awesome-tanks-icon {
+  .credits-icon {
     width: 55px;
     height: 55px;
   }
-  .awesome-tanks-mobile-menu {
+  .credits-mobile-menu {
     padding: 16px;
   }
 }
