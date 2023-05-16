@@ -72,6 +72,11 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.interstellar-navlink07 {
+  font-size: 25px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
 .interstellar-btn-group {
   display: flex;
   align-items: center;
@@ -122,7 +127,7 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.interstellar-navlink07 {
+.interstellar-navlink08 {
   display: contents;
 }
 .interstellar-image1 {
@@ -144,10 +149,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.interstellar-navlink08 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .interstellar-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -157,6 +158,14 @@
   text-decoration: none;
 }
 .interstellar-navlink11 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.interstellar-navlink12 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.interstellar-navlink13 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -228,16 +237,6 @@
   font-style: normal;
   font-weight: 400;
 }
-.interstellar-text12 {
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-}
-.interstellar-text13 {
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-}
 @media(max-width: 767px) {
   .interstellar-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
@@ -259,6 +258,9 @@
     margin-left: var(--dl-space-space-unit);
   }
   .interstellar-navlink06 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .interstellar-navlink07 {
     margin-left: var(--dl-space-space-unit);
   }
   .interstellar-btn-group {

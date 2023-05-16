@@ -72,6 +72,11 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.megaman-navlink07 {
+  font-size: 25px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
 .megaman-btn-group {
   display: flex;
   align-items: center;
@@ -122,7 +127,7 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.megaman-navlink07 {
+.megaman-navlink08 {
   display: contents;
 }
 .megaman-image1 {
@@ -144,10 +149,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.megaman-navlink08 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .megaman-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -157,6 +158,14 @@
   text-decoration: none;
 }
 .megaman-navlink11 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.megaman-navlink12 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.megaman-navlink13 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -201,6 +210,9 @@
     margin-left: var(--dl-space-space-unit);
   }
   .megaman-navlink06 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .megaman-navlink07 {
     margin-left: var(--dl-space-space-unit);
   }
   .megaman-btn-group {

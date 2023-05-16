@@ -72,6 +72,11 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.pacman-world-navlink07 {
+  font-size: 25px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
 .pacman-world-btn-group {
   display: flex;
   align-items: center;
@@ -122,7 +127,7 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.pacman-world-navlink07 {
+.pacman-world-navlink08 {
   display: contents;
 }
 .pacman-world-image1 {
@@ -144,10 +149,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.pacman-world-navlink08 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .pacman-world-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -157,6 +158,14 @@
   text-decoration: none;
 }
 .pacman-world-navlink11 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.pacman-world-navlink12 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.pacman-world-navlink13 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -201,6 +210,9 @@
     margin-left: var(--dl-space-space-unit);
   }
   .pacman-world-navlink06 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .pacman-world-navlink07 {
     margin-left: var(--dl-space-space-unit);
   }
   .pacman-world-btn-group {

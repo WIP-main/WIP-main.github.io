@@ -1,4 +1,4 @@
-.wario-land-container {
+.interstellar-movies-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -8,7 +8,7 @@
   background-size: cover;
   background-image: url("public/playground_assets/wallpaperflare.com_wallpaper%20%5B4%5D-1500w.jpg");
 }
-.wario-land-navbar-interactive {
+.interstellar-movies-navbar-interactive {
   width: 100%;
   display: flex;
   position: relative;
@@ -19,19 +19,19 @@
   padding-bottom: 0px;
   justify-content: space-between;
 }
-.wario-land-navlink {
+.interstellar-movies-navlink {
   display: contents;
 }
-.wario-land-logo {
+.interstellar-movies-logo {
   width: 10%;
   height: 10%;
   text-decoration: none;
 }
-.wario-land-desktop-menu {
+.interstellar-movies-desktop-menu {
   display: flex;
   position: relative;
 }
-.wario-land-nav {
+.interstellar-movies-nav {
   flex: 1;
   color: var(--dl-color-gray-black);
   width: 100%;
@@ -42,65 +42,65 @@
   flex-direction: row;
   justify-content: center;
 }
-.wario-land-navlink01 {
+.interstellar-movies-navlink01 {
   font-size: 25px;
   text-align: center;
   text-decoration: none;
 }
-.wario-land-navlink02 {
+.interstellar-movies-navlink02 {
   font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.wario-land-navlink03 {
+.interstellar-movies-navlink03 {
   font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.wario-land-navlink04 {
+.interstellar-movies-navlink04 {
   font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.wario-land-navlink05 {
+.interstellar-movies-navlink05 {
   font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.wario-land-navlink06 {
+.interstellar-movies-navlink06 {
   font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.wario-land-navlink07 {
+.interstellar-movies-navlink07 {
   font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.wario-land-btn-group {
+.interstellar-movies-btn-group {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.wario-land-link {
+.interstellar-movies-link {
   display: contents;
 }
-.wario-land-image {
+.interstellar-movies-image {
   width: 100px;
   object-fit: cover;
   text-decoration: none;
 }
-.wario-land-burger-menu {
+.interstellar-movies-burger-menu {
   display: none;
   align-items: center;
   justify-content: center;
 }
-.wario-land-icon {
+.interstellar-movies-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.wario-land-mobile-menu {
+.interstellar-movies-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -115,135 +115,183 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.wario-land-nav1 {
+.interstellar-movies-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.wario-land-container1 {
+.interstellar-movies-container1 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.wario-land-navlink08 {
+.interstellar-movies-navlink08 {
   display: contents;
 }
-.wario-land-image1 {
+.interstellar-movies-image1 {
   height: 2rem;
   text-decoration: none;
 }
-.wario-land-menu-close {
+.interstellar-movies-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.wario-land-icon2 {
+.interstellar-movies-icon2 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.wario-land-nav2 {
+.interstellar-movies-nav2 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.wario-land-navlink09 {
+.interstellar-movies-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.wario-land-navlink10 {
+.interstellar-movies-navlink10 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.wario-land-navlink11 {
+.interstellar-movies-navlink11 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.wario-land-navlink12 {
+.interstellar-movies-navlink12 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.wario-land-navlink13 {
+.interstellar-movies-navlink13 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.wario-land-link1 {
+.interstellar-movies-link1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.wario-land-link2 {
+.interstellar-movies-link2 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.wario-land-link3 {
+.interstellar-movies-link3 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.wario-land-icon-group {
+.interstellar-movies-icon-group {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
 }
-.wario-land-div {
-  width: 1440px;
-  height: 910px;
+.interstellar-movies-div {
+  width: 1385px;
+  height: 765px;
+}
+.interstellar-movies-text02 {
+  text-align: center;
+}
+.interstellar-movies-text03 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.interstellar-movies-text04 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.interstellar-movies-text05 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.interstellar-movies-text06 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.interstellar-movies-text07 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.interstellar-movies-text08 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.interstellar-movies-text09 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.interstellar-movies-text10 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+.interstellar-movies-text11 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
 }
 @media(max-width: 767px) {
-  .wario-land-navbar-interactive {
+  .interstellar-movies-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .wario-land-desktop-menu {
+  .interstellar-movies-desktop-menu {
     display: none;
   }
-  .wario-land-navlink02 {
+  .interstellar-movies-navlink02 {
     margin-left: var(--dl-space-space-unit);
   }
-  .wario-land-navlink03 {
+  .interstellar-movies-navlink03 {
     margin-left: var(--dl-space-space-unit);
   }
-  .wario-land-navlink04 {
+  .interstellar-movies-navlink04 {
     margin-left: var(--dl-space-space-unit);
   }
-  .wario-land-navlink05 {
+  .interstellar-movies-navlink05 {
     margin-left: var(--dl-space-space-unit);
   }
-  .wario-land-navlink06 {
+  .interstellar-movies-navlink06 {
     margin-left: var(--dl-space-space-unit);
   }
-  .wario-land-navlink07 {
+  .interstellar-movies-navlink07 {
     margin-left: var(--dl-space-space-unit);
   }
-  .wario-land-btn-group {
+  .interstellar-movies-btn-group {
     display: none;
   }
-  .wario-land-burger-menu {
+  .interstellar-movies-burger-menu {
     display: flex;
   }
-  .wario-land-link1 {
+  .interstellar-movies-link1 {
     text-decoration: none;
   }
-  .wario-land-link2 {
+  .interstellar-movies-link2 {
     text-decoration: none;
   }
-  .wario-land-link3 {
+  .interstellar-movies-link3 {
     text-decoration: none;
   }
 }
 @media(max-width: 479px) {
-  .wario-land-navbar-interactive {
+  .interstellar-movies-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
-  .wario-land-logo {
+  .interstellar-movies-logo {
     width: 15%;
     height: 15%;
   }
-  .wario-land-icon {
+  .interstellar-movies-icon {
     width: 55px;
     height: 55px;
   }
-  .wario-land-mobile-menu {
+  .interstellar-movies-mobile-menu {
     padding: 16px;
   }
 }

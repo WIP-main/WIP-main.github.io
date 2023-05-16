@@ -75,6 +75,16 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.proxies-navlink06 {
+  font-size: 25px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.proxies-navlink07 {
+  font-size: 25px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
 .proxies-btn-group {
   display: flex;
   align-items: center;
@@ -125,7 +135,7 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.proxies-navlink06 {
+.proxies-navlink08 {
   display: contents;
 }
 .proxies-image1 {
@@ -147,14 +157,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.proxies-navlink07 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.proxies-navlink08 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .proxies-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -163,11 +165,27 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
+.proxies-navlink11 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.proxies-navlink12 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.proxies-navlink13 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .proxies-link1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .proxies-link2 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.proxies-link3 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -222,7 +240,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.proxies-navlink11 {
+.proxies-navlink14 {
   display: contents;
 }
 .proxies-container06 {
@@ -295,7 +313,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.proxies-navlink12 {
+.proxies-navlink15 {
   display: contents;
 }
 .proxies-container10 {
@@ -375,7 +393,7 @@
 .proxies-blog-post-card2:hover {
   transform: scale(1.02);
 }
-.proxies-navlink13 {
+.proxies-navlink16 {
   display: contents;
 }
 .proxies-container14 {
@@ -490,6 +508,12 @@
   .proxies-navlink05 {
     margin-left: var(--dl-space-space-unit);
   }
+  .proxies-navlink06 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .proxies-navlink07 {
+    margin-left: var(--dl-space-space-unit);
+  }
   .proxies-btn-group {
     display: none;
   }
@@ -500,6 +524,9 @@
     text-decoration: none;
   }
   .proxies-link2 {
+    text-decoration: none;
+  }
+  .proxies-link3 {
     text-decoration: none;
   }
   .proxies-blog {
