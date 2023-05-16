@@ -76,6 +76,16 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.guides-navlink06 {
+  font-size: 25px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.guides-navlink07 {
+  font-size: 25px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
 .guides-btn-group {
   display: flex;
   align-items: center;
@@ -126,7 +136,7 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.guides-navlink06 {
+.guides-navlink08 {
   display: contents;
 }
 .guides-image1 {
@@ -148,14 +158,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.guides-navlink07 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.guides-navlink08 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .guides-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -164,11 +166,27 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
+.guides-navlink11 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.guides-navlink12 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.guides-navlink13 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .guides-link1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .guides-link2 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.guides-link3 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -223,7 +241,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.guides-navlink11 {
+.guides-navlink14 {
   display: contents;
 }
 .guides-container06 {
@@ -299,7 +317,7 @@
 .guides-blog-post-card2:hover {
   transform: scale(1.02);
 }
-.guides-navlink12 {
+.guides-navlink15 {
   display: contents;
 }
 .guides-container10 {
@@ -377,6 +395,12 @@
   .guides-navlink05 {
     margin-left: var(--dl-space-space-unit);
   }
+  .guides-navlink06 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .guides-navlink07 {
+    margin-left: var(--dl-space-space-unit);
+  }
   .guides-btn-group {
     display: none;
   }
@@ -387,6 +411,9 @@
     text-decoration: none;
   }
   .guides-link2 {
+    text-decoration: none;
+  }
+  .guides-link3 {
     text-decoration: none;
   }
   .guides-blog {

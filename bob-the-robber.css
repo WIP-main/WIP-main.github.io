@@ -73,6 +73,11 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.bob-the-robber-navlink07 {
+  font-size: 25px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
 .bob-the-robber-btn-group {
   display: flex;
   align-items: center;
@@ -123,7 +128,7 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.bob-the-robber-navlink07 {
+.bob-the-robber-navlink08 {
   display: contents;
 }
 .bob-the-robber-image1 {
@@ -145,10 +150,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.bob-the-robber-navlink08 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .bob-the-robber-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -158,6 +159,14 @@
   text-decoration: none;
 }
 .bob-the-robber-navlink11 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.bob-the-robber-navlink12 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.bob-the-robber-navlink13 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -203,6 +212,9 @@
     margin-left: var(--dl-space-space-unit);
   }
   .bob-the-robber-navlink06 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .bob-the-robber-navlink07 {
     margin-left: var(--dl-space-space-unit);
   }
   .bob-the-robber-btn-group {

@@ -73,11 +73,24 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.cannon-basketball-navlink07 {
+  font-size: 25px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
 .cannon-basketball-btn-group {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+}
+.cannon-basketball-link {
+  display: contents;
+}
+.cannon-basketball-image {
+  width: 100px;
+  object-fit: cover;
+  text-decoration: none;
 }
 .cannon-basketball-burger-menu {
   display: none;
@@ -115,10 +128,10 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.cannon-basketball-navlink07 {
+.cannon-basketball-navlink08 {
   display: contents;
 }
-.cannon-basketball-image {
+.cannon-basketball-image1 {
   height: 2rem;
   text-decoration: none;
 }
@@ -137,10 +150,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.cannon-basketball-navlink08 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .cannon-basketball-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -153,7 +162,11 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.cannon-basketball-link {
+.cannon-basketball-navlink12 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.cannon-basketball-navlink13 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -162,6 +175,10 @@
   text-decoration: none;
 }
 .cannon-basketball-link2 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.cannon-basketball-link3 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -197,19 +214,22 @@
   .cannon-basketball-navlink06 {
     margin-left: var(--dl-space-space-unit);
   }
+  .cannon-basketball-navlink07 {
+    margin-left: var(--dl-space-space-unit);
+  }
   .cannon-basketball-btn-group {
     display: none;
   }
   .cannon-basketball-burger-menu {
     display: flex;
   }
-  .cannon-basketball-link {
-    text-decoration: none;
-  }
   .cannon-basketball-link1 {
     text-decoration: none;
   }
   .cannon-basketball-link2 {
+    text-decoration: none;
+  }
+  .cannon-basketball-link3 {
     text-decoration: none;
   }
 }

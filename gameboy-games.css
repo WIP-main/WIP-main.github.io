@@ -57,12 +57,6 @@
   text-align: center;
   text-decoration: none;
 }
-.gameboy-games-text01 {
-  color: #d9d9d9;
-}
-.gameboy-games-text02 {
-  color: #d9d9d9;
-}
 .gameboy-games-navlink02 {
   font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
@@ -79,6 +73,16 @@
   text-decoration: none;
 }
 .gameboy-games-navlink05 {
+  font-size: 25px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.gameboy-games-navlink06 {
+  font-size: 25px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.gameboy-games-navlink07 {
   font-size: 25px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
@@ -133,7 +137,7 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.gameboy-games-navlink06 {
+.gameboy-games-navlink08 {
   display: contents;
 }
 .gameboy-games-image1 {
@@ -155,14 +159,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.gameboy-games-navlink07 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.gameboy-games-navlink08 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .gameboy-games-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -171,11 +167,27 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
+.gameboy-games-navlink11 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.gameboy-games-navlink12 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.gameboy-games-navlink13 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .gameboy-games-link1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .gameboy-games-link2 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.gameboy-games-link3 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -216,7 +228,7 @@
   align-self: center;
   flex-direction: column;
 }
-.gameboy-games-text03 {
+.gameboy-games-text02 {
   width: auto;
   height: auto;
   padding: mixed;
@@ -224,6 +236,12 @@
   align-self: center;
   text-align: center;
   margin-bottom: var(--dl-space-space-threeunits);
+}
+.gameboy-games-text03 {
+  color: var(--dl-color-gray-black);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
 }
 .gameboy-games-text04 {
   color: var(--dl-color-gray-black);
@@ -238,7 +256,6 @@
   font-weight: 600;
 }
 .gameboy-games-text06 {
-  color: var(--dl-color-gray-black);
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -249,7 +266,7 @@
   font-weight: 600;
 }
 .gameboy-games-text08 {
-  font-size: 32px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 600;
 }
@@ -259,11 +276,6 @@
   font-weight: 600;
 }
 .gameboy-games-text10 {
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 600;
-}
-.gameboy-games-text11 {
   font-size: 2rem;
 }
 .gameboy-games-container06 {
@@ -300,7 +312,7 @@
 .gameboy-games-feature-card:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text12 {
+.gameboy-games-text11 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -322,7 +334,7 @@
 .gameboy-games-feature-card01:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text15 {
+.gameboy-games-text14 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -344,7 +356,7 @@
 .gameboy-games-feature-card02:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text19 {
+.gameboy-games-text18 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -366,7 +378,7 @@
 .gameboy-games-feature-card03:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text23 {
+.gameboy-games-text22 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -388,7 +400,7 @@
 .gameboy-games-feature-card04:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text28 {
+.gameboy-games-text27 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -410,7 +422,7 @@
 .gameboy-games-feature-card05:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text29 {
+.gameboy-games-text28 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -432,7 +444,7 @@
 .gameboy-games-feature-card06:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text33 {
+.gameboy-games-text32 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -454,7 +466,7 @@
 .gameboy-games-feature-card07:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text37 {
+.gameboy-games-text36 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -487,7 +499,7 @@
 .gameboy-games-feature-card08:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text41 {
+.gameboy-games-text40 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -509,7 +521,7 @@
 .gameboy-games-feature-card09:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text46 {
+.gameboy-games-text45 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -531,7 +543,7 @@
 .gameboy-games-feature-card10:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text47 {
+.gameboy-games-text46 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -553,7 +565,7 @@
 .gameboy-games-feature-card11:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text48 {
+.gameboy-games-text47 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -575,7 +587,7 @@
 .gameboy-games-feature-card12:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text49 {
+.gameboy-games-text48 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -597,7 +609,7 @@
 .gameboy-games-feature-card13:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text50 {
+.gameboy-games-text49 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -619,7 +631,7 @@
 .gameboy-games-feature-card14:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text51 {
+.gameboy-games-text50 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -641,7 +653,7 @@
 .gameboy-games-feature-card15:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text52 {
+.gameboy-games-text51 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -674,7 +686,7 @@
 .gameboy-games-feature-card16:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text53 {
+.gameboy-games-text52 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -696,7 +708,7 @@
 .gameboy-games-feature-card17:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text58 {
+.gameboy-games-text57 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -718,7 +730,7 @@
 .gameboy-games-feature-card18:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text59 {
+.gameboy-games-text58 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -740,7 +752,7 @@
 .gameboy-games-feature-card19:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text63 {
+.gameboy-games-text62 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -762,7 +774,7 @@
 .gameboy-games-feature-card20:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text64 {
+.gameboy-games-text63 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -784,7 +796,7 @@
 .gameboy-games-feature-card21:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text68 {
+.gameboy-games-text67 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -806,7 +818,7 @@
 .gameboy-games-feature-card22:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text69 {
+.gameboy-games-text68 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -828,7 +840,7 @@
 .gameboy-games-feature-card23:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text73 {
+.gameboy-games-text72 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -861,7 +873,7 @@
 .gameboy-games-feature-card24:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text76 {
+.gameboy-games-text75 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -883,7 +895,7 @@
 .gameboy-games-feature-card25:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text79 {
+.gameboy-games-text78 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -905,7 +917,7 @@
 .gameboy-games-feature-card26:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text83 {
+.gameboy-games-text82 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -927,7 +939,7 @@
 .gameboy-games-feature-card27:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text84 {
+.gameboy-games-text83 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -949,7 +961,7 @@
 .gameboy-games-feature-card28:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text88 {
+.gameboy-games-text87 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -971,7 +983,7 @@
 .gameboy-games-feature-card29:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text89 {
+.gameboy-games-text88 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -993,7 +1005,7 @@
 .gameboy-games-feature-card30:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text90 {
+.gameboy-games-text89 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
@@ -1016,17 +1028,17 @@
 .gameboy-games-feature-card31:hover {
   transform: scale(1.02);
 }
-.gameboy-games-text94 {
+.gameboy-games-text93 {
   width: 100%;
   height: 100%;
   padding: var(--dl-space-space-halfunit);
   margin-bottom: var(--dl-space-space-twounits);
 }
 @media(max-width: 991px) {
-  .gameboy-games-text03 {
+  .gameboy-games-text02 {
     align-self: center;
   }
-  .gameboy-games-text04 {
+  .gameboy-games-text03 {
     align-self: center;
   }
   .gameboy-games-container07 {
@@ -1062,6 +1074,12 @@
   .gameboy-games-navlink05 {
     margin-left: var(--dl-space-space-unit);
   }
+  .gameboy-games-navlink06 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .gameboy-games-navlink07 {
+    margin-left: var(--dl-space-space-unit);
+  }
   .gameboy-games-btn-group {
     display: none;
   }
@@ -1072,6 +1090,9 @@
     text-decoration: none;
   }
   .gameboy-games-link2 {
+    text-decoration: none;
+  }
+  .gameboy-games-link3 {
     text-decoration: none;
   }
   .gameboy-games-features {
@@ -1118,7 +1139,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text03 {
+  .gameboy-games-text02 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1143,7 +1164,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text12 {
+  .gameboy-games-text11 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1155,7 +1176,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text15 {
+  .gameboy-games-text14 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1167,7 +1188,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text19 {
+  .gameboy-games-text18 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1179,7 +1200,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text23 {
+  .gameboy-games-text22 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1191,7 +1212,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text28 {
+  .gameboy-games-text27 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1203,7 +1224,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text29 {
+  .gameboy-games-text28 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1215,7 +1236,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text33 {
+  .gameboy-games-text32 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1227,7 +1248,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text37 {
+  .gameboy-games-text36 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1246,7 +1267,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text41 {
+  .gameboy-games-text40 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1258,7 +1279,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text46 {
+  .gameboy-games-text45 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1270,7 +1291,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text47 {
+  .gameboy-games-text46 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1282,7 +1303,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text48 {
+  .gameboy-games-text47 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1294,7 +1315,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text49 {
+  .gameboy-games-text48 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1306,7 +1327,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text50 {
+  .gameboy-games-text49 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1318,7 +1339,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text51 {
+  .gameboy-games-text50 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1330,7 +1351,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text52 {
+  .gameboy-games-text51 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1349,7 +1370,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text53 {
+  .gameboy-games-text52 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1361,7 +1382,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text58 {
+  .gameboy-games-text57 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1373,7 +1394,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text59 {
+  .gameboy-games-text58 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1385,7 +1406,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text63 {
+  .gameboy-games-text62 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1397,7 +1418,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text64 {
+  .gameboy-games-text63 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1409,7 +1430,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text68 {
+  .gameboy-games-text67 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1421,7 +1442,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text69 {
+  .gameboy-games-text68 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1433,7 +1454,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text73 {
+  .gameboy-games-text72 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1452,7 +1473,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text76 {
+  .gameboy-games-text75 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1464,7 +1485,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text79 {
+  .gameboy-games-text78 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1476,7 +1497,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text83 {
+  .gameboy-games-text82 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1488,7 +1509,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text84 {
+  .gameboy-games-text83 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1500,7 +1521,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text88 {
+  .gameboy-games-text87 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1512,7 +1533,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text89 {
+  .gameboy-games-text88 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1524,7 +1545,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text90 {
+  .gameboy-games-text89 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);
@@ -1536,7 +1557,7 @@
     margin: var(--dl-space-space-halfunit);
     padding: 0px;
   }
-  .gameboy-games-text94 {
+  .gameboy-games-text93 {
     width: auto;
     height: auto;
     margin: var(--dl-space-space-halfunit);

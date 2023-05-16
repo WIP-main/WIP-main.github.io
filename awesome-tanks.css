@@ -73,6 +73,11 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.awesome-tanks-navlink07 {
+  font-size: 25px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
 .awesome-tanks-btn-group {
   display: flex;
   align-items: center;
@@ -123,7 +128,7 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.awesome-tanks-navlink07 {
+.awesome-tanks-navlink08 {
   display: contents;
 }
 .awesome-tanks-image1 {
@@ -145,10 +150,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.awesome-tanks-navlink08 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .awesome-tanks-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -158,6 +159,14 @@
   text-decoration: none;
 }
 .awesome-tanks-navlink11 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.awesome-tanks-navlink12 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.awesome-tanks-navlink13 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -203,6 +212,9 @@
     margin-left: var(--dl-space-space-unit);
   }
   .awesome-tanks-navlink06 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .awesome-tanks-navlink07 {
     margin-left: var(--dl-space-space-unit);
   }
   .awesome-tanks-btn-group {

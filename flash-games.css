@@ -98,6 +98,11 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.flash-games-navlink07 {
+  font-size: 25px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
 .flash-games-btn-group {
   display: flex;
   align-items: center;
@@ -148,7 +153,7 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.flash-games-navlink07 {
+.flash-games-navlink08 {
   display: contents;
 }
 .flash-games-image1 {
@@ -170,10 +175,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.flash-games-navlink08 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .flash-games-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -183,6 +184,14 @@
   text-decoration: none;
 }
 .flash-games-navlink11 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.flash-games-navlink12 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.flash-games-navlink13 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -980,6 +989,9 @@
     margin-left: var(--dl-space-space-unit);
   }
   .flash-games-navlink06 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .flash-games-navlink07 {
     margin-left: var(--dl-space-space-unit);
   }
   .flash-games-btn-group {
